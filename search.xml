@@ -29,4 +29,33 @@
         <tag>Announcement</tag>
       </tags>
   </entry>
+  <entry>
+    <title>BasicTools</title>
+    <url>/2023/04/06/BasicTools/</url>
+    <content><![CDATA[<h1 id="基础工具合集"><a href="#基础工具合集" class="headerlink" title="基础工具合集"></a>基础工具合集</h1><h2 id="图床：博客书写的常用工具！"><a href="#图床：博客书写的常用工具！" class="headerlink" title="图床：博客书写的常用工具！"></a>图床：博客书写的常用工具！</h2><h3 id="ImgURL-图床"><a href="#ImgURL-图床" class="headerlink" title="ImgURL 图床"></a>ImgURL 图床</h3><p><a href="https://www.imgurl.org/">ImgURL</a>老牌免费图床服务，稳定性好，无需注册。游客限制每日上传10张，单张图片不能超过 5M，支持 HTTPS。诞生于2017年12月,是一款开源图片管理系统(简称图床),无需注册即可支持多图上传、粘贴上传、URL上传,图片压缩、图片鉴黄等多种功能,同时也支持自建。</p>
+<h3 id="PostImage-图床"><a href="#PostImage-图床" class="headerlink" title="PostImage 图床"></a>PostImage 图床</h3><p><a href="https://postimages.org/">PostImage</a>外国免费图床网站，支持按照一定大小缩放图片及设置图片过期自动删除。</p>
+<h2 id="流程图：理清思路，学习必备"><a href="#流程图：理清思路，学习必备" class="headerlink" title="流程图：理清思路，学习必备"></a>流程图：理清思路，学习必备</h2><h3 id="橘猫简图"><a href="#橘猫简图" class="headerlink" title="橘猫简图"></a>橘猫简图</h3><p><a href="https://mind.pictureknow.com/">橘猫简图</a>免费流程图绘制网站</p>
+<h2 id="常见代码工具集"><a href="#常见代码工具集" class="headerlink" title="常见代码工具集"></a>常见代码工具集</h2><p><a href="https://www.toolnb.com/">爱资料工具</a><br><a href="https://www.matools.com/">码工具</a><br><a href="https://www.aconvert.com/cn/">在线格式转换工具</a><br><a href="https://tool.lu/">在线免费工具</a><br><a href="https://tool.oschina.net/">在线工具</a><br><a href="https://www.atool99.com/Atool">在线工具</a><br><a href="https://www.w3school.com.cn/index.html">免费web编辑工具网站</a><br><a href="https://www.gitbook.com/">排版工具</a><br><a href="https://www.runoob.com/w3cnote/github-tools.html">GitHub上整理的一些工具</a></p>
+]]></content>
+      <tags>
+        <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Test</title>
+    <url>/2023/04/06/Documentation/</url>
+    <content><![CDATA[<h1 id="博客书写插件调用格式说明"><a href="#博客书写插件调用格式说明" class="headerlink" title="博客书写插件调用格式说明"></a>博客书写插件调用格式说明</h1><h2 id="插入bilibili视频"><a href="#插入bilibili视频" class="headerlink" title="插入bilibili视频"></a>插入bilibili视频</h2><p>如果想在博客页面放入bilibili的视频链接，可以在markdown中使用代码<code>&#123;% bilicard bv/av号 %&#125;</code>即可将其添加至博客页面</p>
+<h2 id="插入音乐播放器"><a href="#插入音乐播放器" class="headerlink" title="插入音乐播放器"></a>插入音乐播放器</h2><p>使用代码<code>&#123;% aplayer title author url [picture_url, narrow, autoplay, width:xxx, lrc:xxx] %&#125;</code></p>
+<ul>
+<li>title : 曲目标题</li>
+<li>author: 曲目作者</li>
+<li>url: 音乐文件 URL 地址</li>
+<li>picture_url: (可选) 音乐对应的图片地址</li>
+<li>narrow: （可选）播放器袖珍风格</li>
+<li>autoplay: (可选) 自动播放，移动端浏览器暂时不支持此功能</li>
+<li>width:xxx: (可选) 播放器宽度 (默认: 100%)</li>
+<li>lrc:xxx: （可选）歌词文件 URL 地址</li>
+</ul>
+]]></content>
+  </entry>
 </search>
