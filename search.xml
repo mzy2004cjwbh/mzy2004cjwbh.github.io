@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>FirstAnnouncement</title>
-    <url>/2023/04/06/FirstAnnouncement/</url>
-    <content><![CDATA[<h1 id="公告：这是一个自建网站！"><a href="#公告：这是一个自建网站！" class="headerlink" title="公告：这是一个自建网站！"></a>公告：这是一个自建网站！</h1><h2 id="这是什么网站？用来干嘛？"><a href="#这是什么网站？用来干嘛？" class="headerlink" title="这是什么网站？用来干嘛？"></a>这是什么网站？用来干嘛？</h2><p>我们通过GitHub+Hexo，成功在GitHub的服务器上部署了一个博客，用于为大家发布习题和题解，同时，我们也会在这个网站上上传各类学习资源。该网站将会不断进行更新，同时，也希望数字媒体技术专业的各位同学能够积极参与进学习中来。</p>
-<h2 id="各位可以做些什么？"><a href="#各位可以做些什么？" class="headerlink" title="各位可以做些什么？"></a>各位可以做些什么？</h2><p>如果解出了发布的题目，大家也可以选择自己来写题解，并通过邮箱(<a href="mailto:&#51;&#x31;&#56;&#x31;&#52;&#53;&#x37;&#49;&#x36;&#53;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;">&#51;&#x31;&#56;&#x31;&#52;&#53;&#x37;&#49;&#x36;&#53;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;</a>)将Markdown格式的题解发给我们，我们会在网站上登出你的题解！同时，如果你在研究一些技术，你同样可以在邮箱发送你的成果，我们可以将你的成果展示在大家面前，形成良好的学术交流环境，或许，在这里，你会有什么新的思路！</p>
-<p>在这里，我们也会通过<code>Announcement</code>tag公布后续的促学计划：Markdown教程、Linux系统使用等大量内容都会在这里更新！或许，<mark><strong>在这里自学也不失为一种选择！</strong></mark></p>
-]]></content>
-      <tags>
-        <tag>Announcement</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2023/04/07/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -28,5 +17,16 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>FirstAnnouncement</title>
+    <url>/2023/04/06/FirstAnnouncement/</url>
+    <content><![CDATA[<h1 id="公告：这是一个自建网站！"><a href="#公告：这是一个自建网站！" class="headerlink" title="公告：这是一个自建网站！"></a>公告：这是一个自建网站！</h1><h2 id="这是什么网站？用来干嘛？"><a href="#这是什么网站？用来干嘛？" class="headerlink" title="这是什么网站？用来干嘛？"></a>这是什么网站？用来干嘛？</h2><p>我们通过GitHub+Hexo，成功在GitHub的服务器上部署了一个博客，用于为大家发布习题和题解，同时，我们也会在这个网站上上传各类学习资源。该网站将会不断进行更新，同时，也希望数字媒体技术专业的各位同学能够积极参与进学习中来。</p>
+<h2 id="各位可以做些什么？"><a href="#各位可以做些什么？" class="headerlink" title="各位可以做些什么？"></a>各位可以做些什么？</h2><p>如果解出了发布的题目，大家也可以选择自己来写题解，并通过邮箱(<a href="mailto:&#51;&#x31;&#56;&#x31;&#52;&#53;&#x37;&#49;&#x36;&#53;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;">&#51;&#x31;&#56;&#x31;&#52;&#53;&#x37;&#49;&#x36;&#53;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;</a>)将Markdown格式的题解发给我们，我们会在网站上登出你的题解！同时，如果你在研究一些技术，你同样可以在邮箱发送你的成果，我们可以将你的成果展示在大家面前，形成良好的学术交流环境，或许，在这里，你会有什么新的思路！</p>
+<p>在这里，我们也会通过<code>Announcement</code>tag公布后续的促学计划：Markdown教程、Linux系统使用等大量内容都会在这里更新！或许，<mark><strong>在这里自学也不失为一种选择！</strong></mark></p>
+]]></content>
+      <tags>
+        <tag>Announcement</tag>
+      </tags>
   </entry>
 </search>
