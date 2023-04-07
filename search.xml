@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>FirstAnnouncement</title>
-    <url>/2023/04/06/FirstAnnouncement/</url>
-    <content><![CDATA[<h1 id="公告：这是一个自建网站！"><a href="#公告：这是一个自建网站！" class="headerlink" title="公告：这是一个自建网站！"></a>公告：这是一个自建网站！</h1><h2 id="这是什么网站？用来干嘛？"><a href="#这是什么网站？用来干嘛？" class="headerlink" title="这是什么网站？用来干嘛？"></a>这是什么网站？用来干嘛？</h2><p>我们通过GitHub+Hexo，成功在GitHub的服务器上部署了一个博客，用于为大家发布习题和题解，同时，我们也会在这个网站上上传各类学习资源。该网站将会不断进行更新，同时，也希望数字媒体技术专业的各位同学能够积极参与进学习中来。</p>
-<h2 id="各位可以做些什么？"><a href="#各位可以做些什么？" class="headerlink" title="各位可以做些什么？"></a>各位可以做些什么？</h2><p>如果解出了发布的题目，大家也可以选择自己来写题解，并通过邮箱(<a href="mailto:&#51;&#x31;&#56;&#x31;&#52;&#53;&#x37;&#49;&#x36;&#53;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;">&#51;&#x31;&#56;&#x31;&#52;&#53;&#x37;&#49;&#x36;&#53;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;</a>)将Markdown格式的题解发给我们，我们会在网站上登出你的题解！同时，如果你在研究一些技术，你同样可以在邮箱发送你的成果，我们可以将你的成果展示在大家面前，形成良好的学术交流环境，或许，在这里，你会有什么新的思路！</p>
-<p>在这里，我们也会通过<code>Announcement</code>tag公布后续的促学计划：Markdown教程、Linux系统使用等大量内容都会在这里更新！或许，<mark><strong>在这里自学也不失为一种选择！</strong></mark></p>
+    <title>BasicTools</title>
+    <url>/2023/04/06/BasicTools/</url>
+    <content><![CDATA[<h1 id="基础工具合集"><a href="#基础工具合集" class="headerlink" title="基础工具合集"></a>基础工具合集</h1><h2 id="图床：博客书写的常用工具！"><a href="#图床：博客书写的常用工具！" class="headerlink" title="图床：博客书写的常用工具！"></a>图床：博客书写的常用工具！</h2><h3 id="ImgURL-图床"><a href="#ImgURL-图床" class="headerlink" title="ImgURL 图床"></a>ImgURL 图床</h3><p><a href="https://www.imgurl.org/">ImgURL</a>老牌免费图床服务，稳定性好，无需注册。游客限制每日上传10张，单张图片不能超过 5M，支持 HTTPS。诞生于2017年12月,是一款开源图片管理系统(简称图床),无需注册即可支持多图上传、粘贴上传、URL上传,图片压缩、图片鉴黄等多种功能,同时也支持自建。</p>
+<h3 id="PostImage-图床"><a href="#PostImage-图床" class="headerlink" title="PostImage 图床"></a>PostImage 图床</h3><p><a href="https://postimages.org/">PostImage</a>外国免费图床网站，支持按照一定大小缩放图片及设置图片过期自动删除。</p>
+<h2 id="流程图：理清思路，学习必备"><a href="#流程图：理清思路，学习必备" class="headerlink" title="流程图：理清思路，学习必备"></a>流程图：理清思路，学习必备</h2><h3 id="橘猫简图"><a href="#橘猫简图" class="headerlink" title="橘猫简图"></a>橘猫简图</h3><p><a href="https://mind.pictureknow.com/">橘猫简图</a>免费流程图绘制网站</p>
+<h2 id="常见代码工具集"><a href="#常见代码工具集" class="headerlink" title="常见代码工具集"></a>常见代码工具集</h2><p><a href="https://www.toolnb.com/">爱资料工具</a><br><a href="https://www.matools.com/">码工具</a><br><a href="https://www.aconvert.com/cn/">在线格式转换工具</a><br><a href="https://tool.lu/">在线免费工具</a><br><a href="https://tool.oschina.net/">在线工具</a><br><a href="https://www.atool99.com/Atool">在线工具</a><br><a href="https://www.w3school.com.cn/index.html">免费web编辑工具网站</a><br><a href="https://www.gitbook.com/">排版工具</a><br><a href="https://www.runoob.com/w3cnote/github-tools.html">GitHub上整理的一些工具</a></p>
 ]]></content>
       <tags>
-        <tag>Announcement</tag>
+        <tag>Tools</tag>
       </tags>
   </entry>
   <entry>
@@ -67,15 +68,14 @@
       </tags>
   </entry>
   <entry>
-    <title>BasicTools</title>
-    <url>/2023/04/06/BasicTools/</url>
-    <content><![CDATA[<h1 id="基础工具合集"><a href="#基础工具合集" class="headerlink" title="基础工具合集"></a>基础工具合集</h1><h2 id="图床：博客书写的常用工具！"><a href="#图床：博客书写的常用工具！" class="headerlink" title="图床：博客书写的常用工具！"></a>图床：博客书写的常用工具！</h2><h3 id="ImgURL-图床"><a href="#ImgURL-图床" class="headerlink" title="ImgURL 图床"></a>ImgURL 图床</h3><p><a href="https://www.imgurl.org/">ImgURL</a>老牌免费图床服务，稳定性好，无需注册。游客限制每日上传10张，单张图片不能超过 5M，支持 HTTPS。诞生于2017年12月,是一款开源图片管理系统(简称图床),无需注册即可支持多图上传、粘贴上传、URL上传,图片压缩、图片鉴黄等多种功能,同时也支持自建。</p>
-<h3 id="PostImage-图床"><a href="#PostImage-图床" class="headerlink" title="PostImage 图床"></a>PostImage 图床</h3><p><a href="https://postimages.org/">PostImage</a>外国免费图床网站，支持按照一定大小缩放图片及设置图片过期自动删除。</p>
-<h2 id="流程图：理清思路，学习必备"><a href="#流程图：理清思路，学习必备" class="headerlink" title="流程图：理清思路，学习必备"></a>流程图：理清思路，学习必备</h2><h3 id="橘猫简图"><a href="#橘猫简图" class="headerlink" title="橘猫简图"></a>橘猫简图</h3><p><a href="https://mind.pictureknow.com/">橘猫简图</a>免费流程图绘制网站</p>
-<h2 id="常见代码工具集"><a href="#常见代码工具集" class="headerlink" title="常见代码工具集"></a>常见代码工具集</h2><p><a href="https://www.toolnb.com/">爱资料工具</a><br><a href="https://www.matools.com/">码工具</a><br><a href="https://www.aconvert.com/cn/">在线格式转换工具</a><br><a href="https://tool.lu/">在线免费工具</a><br><a href="https://tool.oschina.net/">在线工具</a><br><a href="https://www.atool99.com/Atool">在线工具</a><br><a href="https://www.w3school.com.cn/index.html">免费web编辑工具网站</a><br><a href="https://www.gitbook.com/">排版工具</a><br><a href="https://www.runoob.com/w3cnote/github-tools.html">GitHub上整理的一些工具</a></p>
+    <title>FirstAnnouncement</title>
+    <url>/2023/04/06/FirstAnnouncement/</url>
+    <content><![CDATA[<h1 id="公告：这是一个自建网站！"><a href="#公告：这是一个自建网站！" class="headerlink" title="公告：这是一个自建网站！"></a>公告：这是一个自建网站！</h1><h2 id="这是什么网站？用来干嘛？"><a href="#这是什么网站？用来干嘛？" class="headerlink" title="这是什么网站？用来干嘛？"></a>这是什么网站？用来干嘛？</h2><p>我们通过GitHub+Hexo，成功在GitHub的服务器上部署了一个博客，用于为大家发布习题和题解，同时，我们也会在这个网站上上传各类学习资源。该网站将会不断进行更新，同时，也希望数字媒体技术专业的各位同学能够积极参与进学习中来。</p>
+<h2 id="各位可以做些什么？"><a href="#各位可以做些什么？" class="headerlink" title="各位可以做些什么？"></a>各位可以做些什么？</h2><p>如果解出了发布的题目，大家也可以选择自己来写题解，并通过邮箱(<a href="mailto:&#x33;&#x31;&#x38;&#49;&#x34;&#53;&#x37;&#49;&#54;&#x35;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;">&#x33;&#x31;&#x38;&#49;&#x34;&#53;&#x37;&#49;&#54;&#x35;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;</a>)将Markdown格式的题解发给我们，我们会在网站上登出你的题解！同时，如果你在研究一些技术，你同样可以在邮箱发送你的成果，我们可以将你的成果展示在大家面前，形成良好的学术交流环境，或许，在这里，你会有什么新的思路！</p>
+<p>在这里，我们也会通过<code>Announcement</code>tag公布后续的促学计划：Markdown教程、Linux系统使用等大量内容都会在这里更新！或许，<mark><strong>在这里自学也不失为一种选择！</strong></mark></p>
 ]]></content>
       <tags>
-        <tag>Tools</tag>
+        <tag>Announcement</tag>
       </tags>
   </entry>
 </search>
