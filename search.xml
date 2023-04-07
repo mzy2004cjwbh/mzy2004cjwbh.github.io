@@ -24,8 +24,8 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2023/04/05/Bilibili/</url>
+    <title>hexo-bilibili-bangumi</title>
+    <url>/2023/04/07/Bilibili/</url>
     <content><![CDATA[<h1 id="hexo-bilibili-bangumi"><a href="#hexo-bilibili-bangumi" class="headerlink" title="hexo-bilibili-bangumi"></a>hexo-bilibili-bangumi</h1><p><img src="https://nodei.co/npm/hexo-bilibili-bangumi.png?downloads=true&downloadRank=true&stars=true"></p>
 <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><strong>为 Hexo 添加<a href="https://www.bilibili.com/">哔哩哔哩</a>&#x2F;<a href="https://bangumi.tv/">Bangumi</a>追番&#x2F;追剧页面，参考自<a href="https://github.com/mythsman/hexo-douban">hexo-douban</a></strong>.</p>
 <p><a href="https://demo.hclonely.com/bangumis/">Demo</a></p>
@@ -74,5 +74,8 @@
 </ol>
 <h2 id="Lisense"><a href="#Lisense" class="headerlink" title="Lisense"></a>Lisense</h2><p><a href="https://github.com/HCLonely/hexo-bilibili-bangumi/blob/master/LICENSE">Apache Licence 2.0</a></p>
 ]]></content>
+      <tags>
+        <tag>教程</tag>
+      </tags>
   </entry>
 </search>
