@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/04/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>FirstAnnouncement</title>
     <url>/2023/04/06/FirstAnnouncement/</url>
     <content><![CDATA[<h1 id="公告：这是一个自建网站！"><a href="#公告：这是一个自建网站！" class="headerlink" title="公告：这是一个自建网站！"></a>公告：这是一个自建网站！</h1><h2 id="这是什么网站？用来干嘛？"><a href="#这是什么网站？用来干嘛？" class="headerlink" title="这是什么网站？用来干嘛？"></a>这是什么网站？用来干嘛？</h2><p>我们通过GitHub+Hexo，成功在GitHub的服务器上部署了一个博客，用于为大家发布习题和题解，同时，我们也会在这个网站上上传各类学习资源。该网站将会不断进行更新，同时，也希望数字媒体技术专业的各位同学能够积极参与进学习中来。</p>
@@ -42,20 +24,81 @@
       </tags>
   </entry>
   <entry>
-    <title>Test</title>
-    <url>/2023/04/06/Documentation/</url>
-    <content><![CDATA[<h1 id="博客书写插件调用格式说明"><a href="#博客书写插件调用格式说明" class="headerlink" title="博客书写插件调用格式说明"></a>博客书写插件调用格式说明</h1><h2 id="插入bilibili视频"><a href="#插入bilibili视频" class="headerlink" title="插入bilibili视频"></a>插入bilibili视频</h2><p>如果想在博客页面放入bilibili的视频链接，可以在markdown中使用代码<code>&#123;% bilicard bv/av号 %&#125;</code>即可将其添加至博客页面</p>
-<h2 id="插入音乐播放器"><a href="#插入音乐播放器" class="headerlink" title="插入音乐播放器"></a>插入音乐播放器</h2><p>使用代码<code>&#123;% aplayer title author url [picture_url, narrow, autoplay, width:xxx, lrc:xxx] %&#125;</code></p>
+    <title></title>
+    <url>/2023/04/05/Bilibili/</url>
+    <content><![CDATA[<h1 id="在博客中使用hexo-bilibili-bangumi插件"><a href="#在博客中使用hexo-bilibili-bangumi插件" class="headerlink" title="在博客中使用hexo-bilibili-bangumi插件"></a>在博客中使用hexo-bilibili-bangumi插件</h1><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>将下面的配置写入站点的配置文件 <code>_config.yml</code> 里(不是主题的配置文件).</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">bangumi:</span> <span class="comment"># 追番设置</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">source:</span> <span class="string">bili</span></span><br><span class="line">  <span class="attr">bgmInfoSource:</span> <span class="string">&#x27;bgmApi&#x27;</span></span><br><span class="line">  <span class="attr">path:</span></span><br><span class="line">  <span class="attr">vmid:</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">&#x27;追番列表&#x27;</span></span><br><span class="line">  <span class="attr">quote:</span> <span class="string">&#x27;生命不息，追番不止！&#x27;</span></span><br><span class="line">  <span class="attr">show:</span> <span class="number">1</span></span><br><span class="line">  <span class="attr">lazyload:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">srcValue:</span> <span class="string">&#x27;__image__&#x27;</span></span><br><span class="line">  <span class="attr">lazyloadAttrName:</span> <span class="string">&#x27;data-src=__image__&#x27;</span></span><br><span class="line">  <span class="attr">loading:</span></span><br><span class="line">  <span class="attr">showMyComment:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">pagination:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">metaColor:</span></span><br><span class="line">  <span class="attr">color:</span></span><br><span class="line">  <span class="attr">webp:</span></span><br><span class="line">  <span class="attr">progress:</span></span><br><span class="line">  <span class="attr">extraOrder:</span></span><br><span class="line">  <span class="attr">proxy:</span></span><br><span class="line">    <span class="attr">host:</span> <span class="string">&#x27;代理host&#x27;</span></span><br><span class="line">    <span class="attr">port:</span> <span class="string">&#x27;代理端口&#x27;</span></span><br><span class="line">  <span class="attr">extra_options:</span></span><br><span class="line">    <span class="attr">key:</span> <span class="string">value</span></span><br><span class="line"><span class="attr">cinema:</span> <span class="comment"># 追剧设置</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">path:</span></span><br><span class="line">  <span class="attr">vmid:</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">&#x27;追剧列表&#x27;</span></span><br><span class="line">  <span class="attr">quote:</span> <span class="string">&#x27;生命不息，追剧不止！&#x27;</span></span><br><span class="line">  <span class="attr">show:</span> <span class="number">1</span></span><br><span class="line">  <span class="attr">lazyload:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">srcValue:</span> <span class="string">&#x27;__image__&#x27;</span></span><br><span class="line">  <span class="attr">lazyloadAttrName:</span> <span class="string">&#x27;data-src=__image__&#x27;</span></span><br><span class="line">  <span class="attr">loading:</span></span><br><span class="line">  <span class="attr">metaColor:</span></span><br><span class="line">  <span class="attr">color:</span></span><br><span class="line">  <span class="attr">webp:</span></span><br><span class="line">  <span class="attr">progress:</span></span><br><span class="line">  <span class="attr">extraOrder:</span></span><br><span class="line">  <span class="attr">extra_options:</span></span><br><span class="line">    <span class="attr">key:</span> <span class="string">value</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>带*为必填选项！</p>
+</blockquote>
 <ul>
-<li>title : 曲目标题</li>
-<li>author: 曲目作者</li>
-<li>url: 音乐文件 URL 地址</li>
-<li>picture_url: (可选) 音乐对应的图片地址</li>
-<li>narrow: （可选）播放器袖珍风格</li>
-<li>autoplay: (可选) 自动播放，移动端浏览器暂时不支持此功能</li>
-<li>width:xxx: (可选) 播放器宽度 (默认: 100%)</li>
-<li>lrc:xxx: （可选）歌词文件 URL 地址</li>
+<li><strong>enable</strong>: 是否启用</li>
+<li><strong>source</strong>: 数据源，仅支持追番，追剧仅支持哔哩哔哩源。<code>bili</code>: <a href="https://www.bilibili.com/">哔哩哔哩源</a>, <code>bangumi</code>: <a href="https://bangumi.tv/">Bangumi源(bangumi.tv)</a>, <code>bgm</code>: <a href="https://bgm.tv/">Bangumi源(bgm.tv)</a></li>
+<li><strong>bgmInfoApi</strong>: 获取Bangumi番剧信息时使用的Api，仅使用Bangumi源时此选项生效。<code>bgmApi</code>: <a href="https://github.com/bangumi/api/">Bangumi Api</a>, <code>bgmSub</code>: <a href="https://github.com/czy0729/Bangumi-Subject">Bangumi-Subject</a></li>
+<li><strong>proxy</strong>: 代理设置，仅在使用支持<code>bgm</code>源追番时生效。默认<code>false</code></li>
+<li><strong>path</strong>: 页面路径，默认<code>bangumis/index.html</code>, <code>cinemas/index.html</code></li>
+<li><strong>vmid</strong>: 哔哩哔哩的 <code>vmid(uid)</code><a href="#%E8%8E%B7%E5%8F%96-bilibili-uid">如何获取？</a>或Bangumi的用户<code>id</code><a href="#%E8%8E%B7%E5%8F%96-bangumi-id">如何获取？</a></li>
+<li><strong>title</strong>: 该页面的标题</li>
+<li><strong>quote</strong>: 写在页面开头的一段话，支持 html 语法，可留空。</li>
+<li><strong>show</strong>: 初始显示页面：<code>0: 想看</code>, <code>1: 在看</code>, <code>2: 看过</code>，默认为<code>1</code></li>
+<li><strong>lazyload</strong>: 是否启用图片懒加载，如果与主题的懒加载冲突请关闭，默认<code>true</code></li>
+<li><strong>srcValue</strong>: 设置封面图的默认<code>src</code>值, <code>__image__</code>为封面链接, <code>__loading__</code>为loading图片链接, <code>lazyload</code>选项为<code>false</code>时此选项生效</li>
+<li><strong>lazyloadAttrName</strong>: 设置封面图的属性与属性值, 例<code>lazyloadAttrName: &#39;data-src=__image__&#39;</code>代表为<code>img</code>元素添加<code>data-src</code>属性, 其值为图片链接, <code>lazyload</code>选项为<code>false</code>时此选项生效</li>
+<li><strong>loading</strong>: 图片加载完成前的 loading 图片，需启用图片懒加载</li>
+<li><strong>metaColor</strong>: meta 部分(简介上方)字体颜色（十六进制的颜色代码需要添加引号：<code>metaColor: &#39;#FFFFFF&#39;</code>）</li>
+<li><strong>color</strong>: 简介字体颜色</li>
+<li><strong>webp</strong>: 番剧封面使用<code>webp</code>格式(此格式在<code>safari</code>浏览器下不显示，但是图片大小可以缩小 100 倍左右，仅支持哔哩哔哩源), 默认<code>true</code></li>
+<li><strong>progress</strong>: 获取番剧数据时是否显示进度条，默认<code>true</code></li>
+<li><strong>extraOrder</strong>: 手动添加的番剧&#x2F;追剧数据是否优先显示，<code>1</code>为优先，其它为不优先</li>
+<li><strong>showMyComment</strong>: 使用<code>bgm</code>源时显示自己的评价及评论，默认<code>false</code></li>
+<li><strong>pagination</strong>: 分页优化，只将第一页的数据渲染到<code>html</code>文件中，其余数据将通过异步请求加载，避免番剧过多时html文件过大导致页面加载缓慢，建议番剧较多时使用，默认<code>false</code></li>
+<li><strong>extra_options</strong>: 此配置会扩展到Hexo<code>page</code>变量中</li>
 </ul>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ol>
+<li>在<code>hexo generate</code>或<code>hexo deploy</code>之前使用<code>hexo bangumi -u</code>命令更新追番数据，使用<code>hexo cinema -u</code>命令更新追剧数据！</li>
+<li>删除数据命令:<code>hexo bangumi -d</code>&#x2F;<code>hexo cinema -d</code></li>
+</ol>
+<h2 id="获取-Bilibili-uid"><a href="#获取-Bilibili-uid" class="headerlink" title="获取 Bilibili uid"></a>获取 Bilibili uid</h2><p>登录哔哩哔哩后前往<a href="https://space.bilibili.com/">https://space.bilibili.com/</a>页面，网址最后的一串数字就是 <code>uid</code></p>
+<p><em><strong>需要将追番列表设置为公开！</strong></em></p>
+<h2 id="获取-Bangumi-id"><a href="#获取-Bangumi-id" class="headerlink" title="获取 Bangumi id"></a>获取 Bangumi id</h2><p>登录<a href="https://bangumi.tv/">Bangumi</a>后打开控制台(<code>Ctrl</code>+<code>Shift</code>+<code>J</code>)，输入<code>CHOBITS_UID</code>回车，下面会输出<code>id</code></p>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://github.com/HCLonely/hexo-bilibili-bangumi/raw/master/example.png" alt="示例图片"></p>
+<h2 id="手动添加番剧-x2F-追剧数据"><a href="#手动添加番剧-x2F-追剧数据" class="headerlink" title="手动添加番剧&#x2F;追剧数据"></a>手动添加番剧&#x2F;追剧数据</h2><p>因为某些番剧在哔哩哔哩上没有，但是又想在hexo中展示，怎么办呢？现在支持手动添加番剧数据了！</p>
+<p>在 <code>sources/_data/</code> 目录下新建文件，命名为 <code>extra_bangumis.json</code>(追番数据)或<code>extra_cinemas.json</code>(追剧数据) ，并添加以如下内容:</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;watchedExtra&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;缘之空&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;番剧&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;area&quot;</span><span class="punctuation">:</span> <span class="string">&quot;日本&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;cover&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.jsdelivr.net/gh/mmdjiji/bangumis@main/Yosuga-no-Sora/cover.jpg&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;totalCount&quot;</span><span class="punctuation">:</span> <span class="string">&quot;全12话&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;follow&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;view&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;danmaku&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;coin&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;score&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;des&quot;</span><span class="punctuation">:</span> <span class="string">&quot;远离都市的田园小镇，奥木染。春日野悠带着妹妹穹，来到了这座城镇。坐落在这里的是，儿时暑假经常造访的充满回忆的已故祖父的家。双亲因意外事故而丧生，变得无依无靠...&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p><code>title</code> 是番剧的标题，<code>cover</code> 是封面图链接， <code>des</code> 是简介，上述字段均根据需要修改。</p>
+<p>另外除了 <code>watchedExtra</code> 数组，还可以在后面添加新的数组，可用数组名如下:</p>
+<table>
+<thead>
+<tr>
+<th>可用数组名</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>wantWatchExtra</td>
+<td>想看</td>
+</tr>
+<tr>
+<td>watchingExtra</td>
+<td>在看</td>
+</tr>
+<tr>
+<td>watchedExtra</td>
+<td>看过</td>
+</tr>
+</tbody></table>
+<p>需要注意，在两个数组之间需要用 <code>,</code> 分隔。</p>
+<h2 id="多主题兼容"><a href="#多主题兼容" class="headerlink" title="多主题兼容"></a>多主题兼容</h2><ol>
+<li><a href="https://github.com/HCLonely/hexo-bilibili-bangumi/fork">Fork</a>此项目并克隆到本地；</li>
+<li>进入项目目录并安装依赖<code>npm install</code>;</li>
+<li>在<code>src/lib/templates/theme/</code>目录内添加<code>主题.css</code>文件（例：<code>butterfly.css</code>）；</li>
+<li>在<code>主题.css</code>文件内添加主题兼容样式表；</li>
+<li>运行命令<code>npm run build</code>;</li>
+<li>提交PR.</li>
+</ol>
+<h2 id="Lisense"><a href="#Lisense" class="headerlink" title="Lisense"></a>Lisense</h2><p><a href="https://github.com/HCLonely/hexo-bilibili-bangumi/blob/master/LICENSE">Apache Licence 2.0</a></p>
 ]]></content>
   </entry>
 </search>
