@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
+<head><!-- hexo injector head_begin start -->
+<link rel="stylesheet" href="/css/bilicard.css">
+<!-- hexo injector head_begin end -->
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
@@ -20,21 +22,18 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="如何使用hexo-bilibili-bangumi插件在博客中添加视频页面">
+  <meta name="description" content="如何使用 插件在博客中添加视频页面">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo-bilibili-bangumi">
+<meta property="og:title" content="内置Bilibili教程">
 <meta property="og:url" content="http://example.com/2023/04/07/Bilibili/index.html">
 <meta property="og:site_name" content="天科舞铲阶级大联合">
-<meta property="og:description" content="如何使用hexo-bilibili-bangumi插件在博客中添加视频页面">
+<meta property="og:description" content="如何使用 插件在博客中添加视频页面">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://nodei.co/npm/hexo-bilibili-bangumi.png?downloads=true&downloadRank=true&stars=true">
-<meta property="og:image" content="https://github.com/HCLonely/hexo-bilibili-bangumi/raw/master/example.png">
 <meta property="article:published_time" content="2023-04-07T12:04:45.000Z">
-<meta property="article:modified_time" content="2023-04-07T12:40:05.919Z">
+<meta property="article:modified_time" content="2023-04-07T12:55:48.997Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="教程">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://nodei.co/npm/hexo-bilibili-bangumi.png?downloads=true&downloadRank=true&stars=true">
 
 <link rel="canonical" href="http://example.com/2023/04/07/Bilibili/">
 
@@ -49,7 +48,7 @@
   };
 </script>
 
-  <title>hexo-bilibili-bangumi | 天科舞铲阶级大联合</title>
+  <title>内置Bilibili教程 | 天科舞铲阶级大联合</title>
   
 
 
@@ -177,7 +176,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          hexo-bilibili-bangumi
+          内置Bilibili教程
         </h1>
 
         <div class="post-meta">
@@ -188,11 +187,11 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-04-07 20:04:45 / 修改时间：20:40:05" itemprop="dateCreated datePublished" datetime="2023-04-07T20:04:45+08:00">2023-04-07</time>
+              <time title="创建时间：2023-04-07 20:04:45 / 修改时间：20:55:48" itemprop="dateCreated datePublished" datetime="2023-04-07T20:04:45+08:00">2023-04-07</time>
             </span>
 
           
-            <div class="post-description">如何使用hexo-bilibili-bangumi插件在博客中添加视频页面</div>
+            <div class="post-description">如何使用 插件在博客中添加视频页面</div>
 
         </div>
       </header>
@@ -203,54 +202,34 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="hexo-bilibili-bangumi"><a href="#hexo-bilibili-bangumi" class="headerlink" title="hexo-bilibili-bangumi"></a>hexo-bilibili-bangumi</h1><p><img src="https://nodei.co/npm/hexo-bilibili-bangumi.png?downloads=true&downloadRank=true&stars=true"></p>
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><strong>为 Hexo 添加<a target="_blank" rel="noopener" href="https://www.bilibili.com/">哔哩哔哩</a>&#x2F;<a target="_blank" rel="noopener" href="https://bangumi.tv/">Bangumi</a>追番&#x2F;追剧页面，参考自<a target="_blank" rel="noopener" href="https://github.com/mythsman/hexo-douban">hexo-douban</a></strong>.</p>
-<p><a target="_blank" rel="noopener" href="https://demo.hclonely.com/bangumis/">Demo</a></p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ol>
-<li>在<code>hexo generate</code>或<code>hexo deploy</code>之前使用<code>hexo bangumi -u</code>命令更新追番数据，使用<code>hexo cinema -u</code>命令更新追剧数据！</li>
-<li>删除数据命令:<code>hexo bangumi -d</code>&#x2F;<code>hexo cinema -d</code></li>
-</ol>
-<h2 id="获取-Bilibili-uid"><a href="#获取-Bilibili-uid" class="headerlink" title="获取 Bilibili uid"></a>获取 Bilibili uid</h2><p>登录哔哩哔哩后前往<a target="_blank" rel="noopener" href="https://space.bilibili.com/">https://space.bilibili.com/</a>页面，网址最后的一串数字就是 <code>uid</code></p>
-<p><em><strong>需要将追番列表设置为公开！</strong></em></p>
-<h2 id="获取-Bangumi-id"><a href="#获取-Bangumi-id" class="headerlink" title="获取 Bangumi id"></a>获取 Bangumi id</h2><p>登录<a target="_blank" rel="noopener" href="https://bangumi.tv/">Bangumi</a>后打开控制台(<code>Ctrl</code>+<code>Shift</code>+<code>J</code>)，输入<code>CHOBITS_UID</code>回车，下面会输出<code>id</code></p>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://github.com/HCLonely/hexo-bilibili-bangumi/raw/master/example.png" alt="示例图片"></p>
-<h2 id="手动添加番剧-x2F-追剧数据"><a href="#手动添加番剧-x2F-追剧数据" class="headerlink" title="手动添加番剧&#x2F;追剧数据"></a>手动添加番剧&#x2F;追剧数据</h2><p>因为某些番剧在哔哩哔哩上没有，但是又想在hexo中展示，怎么办呢？现在支持手动添加番剧数据了！</p>
-<p>在 <code>sources/_data/</code> 目录下新建文件，命名为 <code>extra_bangumis.json</code>(追番数据)或<code>extra_cinemas.json</code>(追剧数据) ，并添加以如下内容:</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;watchedExtra&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;缘之空&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;番剧&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;area&quot;</span><span class="punctuation">:</span> <span class="string">&quot;日本&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;cover&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.jsdelivr.net/gh/mmdjiji/bangumis@main/Yosuga-no-Sora/cover.jpg&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;totalCount&quot;</span><span class="punctuation">:</span> <span class="string">&quot;全12话&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;follow&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;view&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;danmaku&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;coin&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;score&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;des&quot;</span><span class="punctuation">:</span> <span class="string">&quot;远离都市的田园小镇，奥木染。春日野悠带着妹妹穹，来到了这座城镇。坐落在这里的是，儿时暑假经常造访的充满回忆的已故祖父的家。双亲因意外事故而丧生，变得无依无靠...&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p><code>title</code> 是番剧的标题，<code>cover</code> 是封面图链接， <code>des</code> 是简介，上述字段均根据需要修改。</p>
-<p>另外除了 <code>watchedExtra</code> 数组，还可以在后面添加新的数组，可用数组名如下:</p>
-<table>
-<thead>
-<tr>
-<th>可用数组名</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>wantWatchExtra</td>
-<td>想看</td>
-</tr>
-<tr>
-<td>watchingExtra</td>
-<td>在看</td>
-</tr>
-<tr>
-<td>watchedExtra</td>
-<td>看过</td>
-</tr>
-</tbody></table>
-<p>需要注意，在两个数组之间需要用 <code>,</code> 分隔。</p>
-<h2 id="多主题兼容"><a href="#多主题兼容" class="headerlink" title="多主题兼容"></a>多主题兼容</h2><ol>
-<li><a target="_blank" rel="noopener" href="https://github.com/HCLonely/hexo-bilibili-bangumi/fork">Fork</a>此项目并克隆到本地；</li>
-<li>进入项目目录并安装依赖<code>npm install</code>;</li>
-<li>在<code>src/lib/templates/theme/</code>目录内添加<code>主题.css</code>文件（例：<code>butterfly.css</code>）；</li>
-<li>在<code>主题.css</code>文件内添加主题兼容样式表；</li>
-<li>运行命令<code>npm run build</code>;</li>
-<li>提交PR.</li>
-</ol>
-<h2 id="Lisense"><a href="#Lisense" class="headerlink" title="Lisense"></a>Lisense</h2><p><a target="_blank" rel="noopener" href="https://github.com/HCLonely/hexo-bilibili-bangumi/blob/master/LICENSE">Apache Licence 2.0</a></p>
-
+        <div class="bvideo"><a href="//www.bilibili.com/video/BV1LN411A72k" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/548dfb1ee7e8756bde3377fcdce1b0b0614f2ebb.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:10:39</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">国风蛋糕天花板，还有谁谁谁谁谁谁？！！</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>8.7万</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>517</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">乔一烘焙</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+<div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=311981284&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div>
     </div>
 
     
@@ -335,7 +314,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo-bilibili-bangumi"><span class="nav-number">1.</span> <span class="nav-text">hexo-bilibili-bangumi</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.1.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8"><span class="nav-number">1.2.</span> <span class="nav-text">使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96-Bilibili-uid"><span class="nav-number">1.3.</span> <span class="nav-text">获取 Bilibili uid</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96-Bangumi-id"><span class="nav-number">1.4.</span> <span class="nav-text">获取 Bangumi id</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B"><span class="nav-number">1.5.</span> <span class="nav-text">示例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%95%AA%E5%89%A7-x2F-%E8%BF%BD%E5%89%A7%E6%95%B0%E6%8D%AE"><span class="nav-number">1.6.</span> <span class="nav-text">手动添加番剧&#x2F;追剧数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9A%E4%B8%BB%E9%A2%98%E5%85%BC%E5%AE%B9"><span class="nav-number">1.7.</span> <span class="nav-text">多主题兼容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lisense"><span class="nav-number">1.8.</span> <span class="nav-text">Lisense</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

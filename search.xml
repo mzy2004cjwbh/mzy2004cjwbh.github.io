@@ -13,56 +13,36 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo-bilibili-bangumi</title>
+    <title>内置Bilibili教程</title>
     <url>/2023/04/07/Bilibili/</url>
-    <content><![CDATA[<h1 id="hexo-bilibili-bangumi"><a href="#hexo-bilibili-bangumi" class="headerlink" title="hexo-bilibili-bangumi"></a>hexo-bilibili-bangumi</h1><p><img src="https://nodei.co/npm/hexo-bilibili-bangumi.png?downloads=true&downloadRank=true&stars=true"></p>
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><strong>为 Hexo 添加<a href="https://www.bilibili.com/">哔哩哔哩</a>&#x2F;<a href="https://bangumi.tv/">Bangumi</a>追番&#x2F;追剧页面，参考自<a href="https://github.com/mythsman/hexo-douban">hexo-douban</a></strong>.</p>
-<p><a href="https://demo.hclonely.com/bangumis/">Demo</a></p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ol>
-<li>在<code>hexo generate</code>或<code>hexo deploy</code>之前使用<code>hexo bangumi -u</code>命令更新追番数据，使用<code>hexo cinema -u</code>命令更新追剧数据！</li>
-<li>删除数据命令:<code>hexo bangumi -d</code>&#x2F;<code>hexo cinema -d</code></li>
-</ol>
-<h2 id="获取-Bilibili-uid"><a href="#获取-Bilibili-uid" class="headerlink" title="获取 Bilibili uid"></a>获取 Bilibili uid</h2><p>登录哔哩哔哩后前往<a href="https://space.bilibili.com/">https://space.bilibili.com/</a>页面，网址最后的一串数字就是 <code>uid</code></p>
-<p><em><strong>需要将追番列表设置为公开！</strong></em></p>
-<h2 id="获取-Bangumi-id"><a href="#获取-Bangumi-id" class="headerlink" title="获取 Bangumi id"></a>获取 Bangumi id</h2><p>登录<a href="https://bangumi.tv/">Bangumi</a>后打开控制台(<code>Ctrl</code>+<code>Shift</code>+<code>J</code>)，输入<code>CHOBITS_UID</code>回车，下面会输出<code>id</code></p>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="https://github.com/HCLonely/hexo-bilibili-bangumi/raw/master/example.png" alt="示例图片"></p>
-<h2 id="手动添加番剧-x2F-追剧数据"><a href="#手动添加番剧-x2F-追剧数据" class="headerlink" title="手动添加番剧&#x2F;追剧数据"></a>手动添加番剧&#x2F;追剧数据</h2><p>因为某些番剧在哔哩哔哩上没有，但是又想在hexo中展示，怎么办呢？现在支持手动添加番剧数据了！</p>
-<p>在 <code>sources/_data/</code> 目录下新建文件，命名为 <code>extra_bangumis.json</code>(追番数据)或<code>extra_cinemas.json</code>(追剧数据) ，并添加以如下内容:</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;watchedExtra&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;缘之空&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;番剧&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;area&quot;</span><span class="punctuation">:</span> <span class="string">&quot;日本&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;cover&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://cdn.jsdelivr.net/gh/mmdjiji/bangumis@main/Yosuga-no-Sora/cover.jpg&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;totalCount&quot;</span><span class="punctuation">:</span> <span class="string">&quot;全12话&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">0</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;follow&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;view&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;danmaku&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;coin&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;score&quot;</span><span class="punctuation">:</span> <span class="string">&quot;不可用&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;des&quot;</span><span class="punctuation">:</span> <span class="string">&quot;远离都市的田园小镇，奥木染。春日野悠带着妹妹穹，来到了这座城镇。坐落在这里的是，儿时暑假经常造访的充满回忆的已故祖父的家。双亲因意外事故而丧生，变得无依无靠...&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p><code>title</code> 是番剧的标题，<code>cover</code> 是封面图链接， <code>des</code> 是简介，上述字段均根据需要修改。</p>
-<p>另外除了 <code>watchedExtra</code> 数组，还可以在后面添加新的数组，可用数组名如下:</p>
-<table>
-<thead>
-<tr>
-<th>可用数组名</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>wantWatchExtra</td>
-<td>想看</td>
-</tr>
-<tr>
-<td>watchingExtra</td>
-<td>在看</td>
-</tr>
-<tr>
-<td>watchedExtra</td>
-<td>看过</td>
-</tr>
-</tbody></table>
-<p>需要注意，在两个数组之间需要用 <code>,</code> 分隔。</p>
-<h2 id="多主题兼容"><a href="#多主题兼容" class="headerlink" title="多主题兼容"></a>多主题兼容</h2><ol>
-<li><a href="https://github.com/HCLonely/hexo-bilibili-bangumi/fork">Fork</a>此项目并克隆到本地；</li>
-<li>进入项目目录并安装依赖<code>npm install</code>;</li>
-<li>在<code>src/lib/templates/theme/</code>目录内添加<code>主题.css</code>文件（例：<code>butterfly.css</code>）；</li>
-<li>在<code>主题.css</code>文件内添加主题兼容样式表；</li>
-<li>运行命令<code>npm run build</code>;</li>
-<li>提交PR.</li>
-</ol>
-<h2 id="Lisense"><a href="#Lisense" class="headerlink" title="Lisense"></a>Lisense</h2><p><a href="https://github.com/HCLonely/hexo-bilibili-bangumi/blob/master/LICENSE">Apache Licence 2.0</a></p>
-]]></content>
+    <content><![CDATA[<div class="bvideo"><a href="//www.bilibili.com/video/BV1LN411A72k" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/548dfb1ee7e8756bde3377fcdce1b0b0614f2ebb.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:10:39</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">国风蛋糕天花板，还有谁谁谁谁谁谁？！！</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>8.7万</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>517</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">乔一烘焙</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+<div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=311981284&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div>]]></content>
       <tags>
         <tag>教程</tag>
       </tags>
