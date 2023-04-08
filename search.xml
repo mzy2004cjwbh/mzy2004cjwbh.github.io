@@ -12,6 +12,53 @@
       </tags>
   </entry>
   <entry>
+    <title>Markdown</title>
+    <url>/2023/04/08/Markdown/</url>
+    <content><![CDATA[<h1 id="Markdown语法和博客编辑教程-1"><a href="#Markdown语法和博客编辑教程-1" class="headerlink" title="Markdown语法和博客编辑教程-1"></a>Markdown语法和博客编辑教程-1</h1><hr>
+<h2 id="Markdown标题语法"><a href="#Markdown标题语法" class="headerlink" title="Markdown标题语法"></a>Markdown标题语法</h2><p>要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+<p>如：本节教程大标题<code>Markdown语法和博客编辑教程-1</code>就是一级标题，而<code>Markdown标题语法</code>则是二级标题。<br></p>
+<h3 id="可选语法"><a href="#可选语法" class="headerlink" title="可选语法"></a>可选语法</h3><p>还可以在文本下方添加任意数量的 &#x3D;&#x3D; 号来标识一级标题，或者 – 号来标识二级标题。<br><br></p>
+<h3 id="最佳格式"><a href="#最佳格式" class="headerlink" title="最佳格式"></a>最佳格式</h3><ul>
+<li>不同的 Markdown 应用程序处理 # 和标题之间的空格方式并不一致。为了兼容考虑，请用一个空格在 # 和标题之间进行分隔。<br></li>
+</ul>
+<hr>
+<h2 id="Markdown段落语法"><a href="#Markdown段落语法" class="headerlink" title="Markdown段落语法"></a>Markdown段落语法</h2><h3 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h3><p>要创建段落，请使用空白行将一行或多行文本进行分隔。</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code> I really like using Markdown.</code></td>
+<td><code>&lt;p&gt;I really like using Markdown.&lt;/p&gt;</code></td>
+</tr>
+<tr>
+<td>而在网页中将会显示：</td>
+<td></td>
+</tr>
+<tr>
+<td>I really like using Markdown.</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="最佳格式-1"><a href="#最佳格式-1" class="headerlink" title="最佳格式"></a>最佳格式</h3><p>直接写出内容，不要使用空格或者制表符（TAB）<br><br></p>
+<hr>
+<h2 id="Markdown-换行语法"><a href="#Markdown-换行语法" class="headerlink" title="Markdown 换行语法"></a>Markdown 换行语法</h2><h3 id="基础语法-1"><a href="#基础语法-1" class="headerlink" title="基础语法"></a>基础语法</h3><p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<code>&lt;br&gt;</code>)。<br><br></p>
+<h3 id="最佳格式-2"><a href="#最佳格式-2" class="headerlink" title="最佳格式"></a>最佳格式</h3><p>几乎每个 Markdown 应用程序都支持两个或多个空格进行换行，称为 结尾空格（trailing whitespace) 的方式，但这是有争议的，因为很难在编辑器中直接看到空格，并且很多人在每个句子后面都会有意或无意地添加两个空格。由于这个原因，你可能要使用除结尾空格以外的其它方式来换行。幸运的是，几乎每个 Markdown 应用程序都支持另一种换行方式：HTML 的 <code>&lt;br&gt;</code> 标签。</p>
+<p><strong>为了兼容性，请在行尾添加“结尾空格”或 HTML 的<code>&lt;br&gt;</code>标签来实现换行。</strong></p>
+<p>还有两种其他方式我并不推荐使用。CommonMark 和其它几种轻量级标记语言支持在行尾添加反斜杠 () 的方式实现换行，但是并非所有 Markdown 应用程序都支持此种方式，因此从兼容性的角度来看，不推荐使用。并且至少有两种轻量级标记语言支持无须在行尾添加任何内容，只须键入回车键（return）即可实现换行。</p>
+]]></content>
+      <categories>
+        <category>Markdown语法和博客编辑教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>内置Bilibili教程</title>
     <url>/2023/04/07/Bilibili/</url>
     <content><![CDATA[<h1 id="如何使用插件在博客中添加视频页面"><a href="#如何使用插件在博客中添加视频页面" class="headerlink" title="如何使用插件在博客中添加视频页面"></a>如何使用插件在博客中添加视频页面</h1><p>为了在博客中内置视频，我们集成了两个视频插入插件供选择</p>
