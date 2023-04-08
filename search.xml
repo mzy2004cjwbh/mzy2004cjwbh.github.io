@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>BasicTools</title>
-    <url>/2023/04/06/BasicTools/</url>
-    <content><![CDATA[<h1 id="基础工具合集"><a href="#基础工具合集" class="headerlink" title="基础工具合集"></a>基础工具合集</h1><h2 id="图床：博客书写的常用工具！"><a href="#图床：博客书写的常用工具！" class="headerlink" title="图床：博客书写的常用工具！"></a>图床：博客书写的常用工具！</h2><h3 id="ImgURL-图床"><a href="#ImgURL-图床" class="headerlink" title="ImgURL 图床"></a>ImgURL 图床</h3><p><a href="https://www.imgurl.org/">ImgURL</a>老牌免费图床服务，稳定性好，无需注册。游客限制每日上传10张，单张图片不能超过 5M，支持 HTTPS。诞生于2017年12月,是一款开源图片管理系统(简称图床),无需注册即可支持多图上传、粘贴上传、URL上传,图片压缩、图片鉴黄等多种功能,同时也支持自建。</p>
-<h3 id="PostImage-图床"><a href="#PostImage-图床" class="headerlink" title="PostImage 图床"></a>PostImage 图床</h3><p><a href="https://postimages.org/">PostImage</a>外国免费图床网站，支持按照一定大小缩放图片及设置图片过期自动删除。</p>
-<h2 id="流程图：理清思路，学习必备"><a href="#流程图：理清思路，学习必备" class="headerlink" title="流程图：理清思路，学习必备"></a>流程图：理清思路，学习必备</h2><h3 id="橘猫简图"><a href="#橘猫简图" class="headerlink" title="橘猫简图"></a>橘猫简图</h3><p><a href="https://mind.pictureknow.com/">橘猫简图</a>免费流程图绘制网站</p>
-<h2 id="常见代码工具集"><a href="#常见代码工具集" class="headerlink" title="常见代码工具集"></a>常见代码工具集</h2><p><a href="https://www.toolnb.com/">爱资料工具</a><br><a href="https://www.matools.com/">码工具</a><br><a href="https://www.aconvert.com/cn/">在线格式转换工具</a><br><a href="https://tool.lu/">在线免费工具</a><br><a href="https://tool.oschina.net/">在线工具</a><br><a href="https://www.atool99.com/Atool">在线工具</a><br><a href="https://www.w3school.com.cn/index.html">免费web编辑工具网站</a><br><a href="https://www.gitbook.com/">排版工具</a><br><a href="https://www.runoob.com/w3cnote/github-tools.html">GitHub上整理的一些工具</a></p>
+    <title>FirstAnnouncement</title>
+    <url>/2023/04/06/FirstAnnouncement/</url>
+    <content><![CDATA[<h1 id="公告：这是一个自建网站！"><a href="#公告：这是一个自建网站！" class="headerlink" title="公告：这是一个自建网站！"></a>公告：这是一个自建网站！</h1><h2 id="这是什么网站？用来干嘛？"><a href="#这是什么网站？用来干嘛？" class="headerlink" title="这是什么网站？用来干嘛？"></a>这是什么网站？用来干嘛？</h2><p>我们通过GitHub+Hexo，成功在GitHub的服务器上部署了一个博客，用于为大家发布习题和题解，同时，我们也会在这个网站上上传各类学习资源。该网站将会不断进行更新，同时，也希望数字媒体技术专业的各位同学能够积极参与进学习中来。</p>
+<h2 id="各位可以做些什么？"><a href="#各位可以做些什么？" class="headerlink" title="各位可以做些什么？"></a>各位可以做些什么？</h2><p>如果解出了发布的题目，大家也可以选择自己来写题解，并通过邮箱(<a href="mailto:&#x33;&#x31;&#x38;&#49;&#x34;&#53;&#x37;&#49;&#54;&#x35;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;">&#x33;&#x31;&#x38;&#49;&#x34;&#53;&#x37;&#49;&#54;&#x35;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;</a>)将Markdown格式的题解发给我们，我们会在网站上登出你的题解！同时，如果你在研究一些技术，你同样可以在邮箱发送你的成果，我们可以将你的成果展示在大家面前，形成良好的学术交流环境，或许，在这里，你会有什么新的思路！</p>
+<p>在这里，我们也会通过<code>Announcement</code>tag公布后续的促学计划：Markdown教程、Linux系统使用等大量内容都会在这里更新！或许，<mark><strong>在这里自学也不失为一种选择！</strong></mark></p>
 ]]></content>
       <tags>
-        <tag>Tools</tag>
+        <tag>Announcement</tag>
       </tags>
   </entry>
   <entry>
     <title>内置Bilibili教程</title>
     <url>/2023/04/07/Bilibili/</url>
-    <content><![CDATA[<div class="bvideo"><a href="//www.bilibili.com/video/BV1LN411A72k" target="_blank">
+    <content><![CDATA[<h1 id="如何使用插件在博客中添加视频页面"><a href="#如何使用插件在博客中添加视频页面" class="headerlink" title="如何使用插件在博客中添加视频页面"></a>如何使用插件在博客中添加视频页面</h1><p>为了在博客中内置视频，我们集成了两个视频插入插件供选择</p>
+<hr>
+<h2 id="hexo-bilibili-card"><a href="#hexo-bilibili-card" class="headerlink" title="hexo-bilibili-card"></a>hexo-bilibili-card</h2><h3 id="Usage-使用"><a href="#Usage-使用" class="headerlink" title="Usage 使用"></a>Usage 使用</h3><p><br>在你的markdown文件中插入以下片段</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% bilicard your_video_id %&#125;</span><br></pre></td></tr></table></figure>
+<p><code>your_video_id</code> 是b站的bv号或av号。</p>
+<p>然后你就可以看见文章中的卡片了。</p>
+<h3 id="Preview-预览"><a href="#Preview-预览" class="headerlink" title="Preview 预览"></a>Preview 预览</h3><div class="bvideo"><a href="//www.bilibili.com/video/BV1LN411A72k" target="_blank">
         <div class="bvideo-box">
             <div class="bvideo-cover">
                 <div class="cover-default"></div>
@@ -29,10 +34,10 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>8.7万</span></span>
+                        <span>9.1万</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
-                        <span>517</span></span></p>
+                        <span>556</span></span></p>
                 <div class="partition">
                     <label class="card-label">视频</label>
                     <label class="up-label"></label>
@@ -42,20 +47,28 @@
             </div>
         </div>
     </a></div>
-<div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=311981284&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div>]]></content>
+
+<hr>
+<h2 id="hexo-tag-bilibili"><a href="#hexo-tag-bilibili" class="headerlink" title="hexo-tag-bilibili"></a>hexo-tag-bilibili</h2><h3 id="Usage-使用-1"><a href="#Usage-使用-1" class="headerlink" title="Usage 使用"></a>Usage 使用</h3><p><br>你可以这样使用：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% bilibili [av_id] %&#125;</span><br><span class="line">or</span><br><span class="line">&#123;% bilibili [av_id] [page] %&#125;</span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% bilibili 2333333 3 %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Preview-预览-1"><a href="#Preview-预览-1" class="headerlink" title="Preview 预览"></a>Preview 预览</h3><div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=311981284&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div>]]></content>
       <tags>
         <tag>教程</tag>
       </tags>
   </entry>
   <entry>
-    <title>FirstAnnouncement</title>
-    <url>/2023/04/06/FirstAnnouncement/</url>
-    <content><![CDATA[<h1 id="公告：这是一个自建网站！"><a href="#公告：这是一个自建网站！" class="headerlink" title="公告：这是一个自建网站！"></a>公告：这是一个自建网站！</h1><h2 id="这是什么网站？用来干嘛？"><a href="#这是什么网站？用来干嘛？" class="headerlink" title="这是什么网站？用来干嘛？"></a>这是什么网站？用来干嘛？</h2><p>我们通过GitHub+Hexo，成功在GitHub的服务器上部署了一个博客，用于为大家发布习题和题解，同时，我们也会在这个网站上上传各类学习资源。该网站将会不断进行更新，同时，也希望数字媒体技术专业的各位同学能够积极参与进学习中来。</p>
-<h2 id="各位可以做些什么？"><a href="#各位可以做些什么？" class="headerlink" title="各位可以做些什么？"></a>各位可以做些什么？</h2><p>如果解出了发布的题目，大家也可以选择自己来写题解，并通过邮箱(<a href="mailto:&#x33;&#x31;&#x38;&#49;&#x34;&#53;&#x37;&#49;&#54;&#x35;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;">&#x33;&#x31;&#x38;&#49;&#x34;&#53;&#x37;&#49;&#54;&#x35;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;</a>)将Markdown格式的题解发给我们，我们会在网站上登出你的题解！同时，如果你在研究一些技术，你同样可以在邮箱发送你的成果，我们可以将你的成果展示在大家面前，形成良好的学术交流环境，或许，在这里，你会有什么新的思路！</p>
-<p>在这里，我们也会通过<code>Announcement</code>tag公布后续的促学计划：Markdown教程、Linux系统使用等大量内容都会在这里更新！或许，<mark><strong>在这里自学也不失为一种选择！</strong></mark></p>
+    <title>BasicTools</title>
+    <url>/2023/04/06/BasicTools/</url>
+    <content><![CDATA[<h1 id="基础工具合集"><a href="#基础工具合集" class="headerlink" title="基础工具合集"></a>基础工具合集</h1><h2 id="图床：博客书写的常用工具！"><a href="#图床：博客书写的常用工具！" class="headerlink" title="图床：博客书写的常用工具！"></a>图床：博客书写的常用工具！</h2><h3 id="ImgURL-图床"><a href="#ImgURL-图床" class="headerlink" title="ImgURL 图床"></a>ImgURL 图床</h3><p><a href="https://www.imgurl.org/">ImgURL</a>老牌免费图床服务，稳定性好，无需注册。游客限制每日上传10张，单张图片不能超过 5M，支持 HTTPS。诞生于2017年12月,是一款开源图片管理系统(简称图床),无需注册即可支持多图上传、粘贴上传、URL上传,图片压缩、图片鉴黄等多种功能,同时也支持自建。</p>
+<h3 id="PostImage-图床"><a href="#PostImage-图床" class="headerlink" title="PostImage 图床"></a>PostImage 图床</h3><p><a href="https://postimages.org/">PostImage</a>外国免费图床网站，支持按照一定大小缩放图片及设置图片过期自动删除。</p>
+<h2 id="流程图：理清思路，学习必备"><a href="#流程图：理清思路，学习必备" class="headerlink" title="流程图：理清思路，学习必备"></a>流程图：理清思路，学习必备</h2><h3 id="橘猫简图"><a href="#橘猫简图" class="headerlink" title="橘猫简图"></a>橘猫简图</h3><p><a href="https://mind.pictureknow.com/">橘猫简图</a>免费流程图绘制网站</p>
+<h2 id="常见代码工具集"><a href="#常见代码工具集" class="headerlink" title="常见代码工具集"></a>常见代码工具集</h2><p><a href="https://www.toolnb.com/">爱资料工具</a><br><a href="https://www.matools.com/">码工具</a><br><a href="https://www.aconvert.com/cn/">在线格式转换工具</a><br><a href="https://tool.lu/">在线免费工具</a><br><a href="https://tool.oschina.net/">在线工具</a><br><a href="https://www.atool99.com/Atool">在线工具</a><br><a href="https://www.w3school.com.cn/index.html">免费web编辑工具网站</a><br><a href="https://www.gitbook.com/">排版工具</a><br><a href="https://www.runoob.com/w3cnote/github-tools.html">GitHub上整理的一些工具</a></p>
 ]]></content>
       <tags>
-        <tag>Announcement</tag>
+        <tag>Tools</tag>
       </tags>
   </entry>
 </search>
