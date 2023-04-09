@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #d1ffff;
+  background: #fbff33;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2141,6 +2141,13 @@ ul.breadcrumb li + li:last-child {
 .tag-cloud a:hover {
   color: var(--link-hover-color) !important;
 }
+mjx-container[jax="CHTML"][display="true"],
+.has-jax {
+  overflow: auto hidden;
+}
+mjx-container + br {
+  display: none;
+}
 .header {
   margin: 0 auto;
   position: relative;
@@ -2563,3 +2570,4 @@ ul.breadcrumb li + li:last-child {
     margin: 8px 0 0;
   }
 }
+@import "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css";
