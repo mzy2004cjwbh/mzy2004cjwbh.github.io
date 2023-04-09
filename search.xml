@@ -500,4 +500,105 @@ Markdown语法:</p>
         <tag>教程</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Markdown-4</title>
+    <url>/2023/04/09/Markdown-4/</url>
+    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-4"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-4"></a> Markdown语法和博客编辑教程-4</h1>
+<hr />
+<h2 id="markdown-代码语法"><a class="markdownIt-Anchor" href="#markdown-代码语法"></a> Markdown 代码语法</h2>
+<p>要将单词或短语表示为代码，请将其包裹在反引号 <code> </code> ` 中。<br />
+Markdown语法:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">At the command prompt, type `nano`.</span><br></pre></td></tr></table></figure>
+<p>HTML:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">At the command prompt, type <span class="tag">&lt;<span class="name">code</span>&gt;</span>nano<span class="tag">&lt;/<span class="name">code</span>&gt;</span>.</span><br></pre></td></tr></table></figure>
+<h3 id="转义反引号"><a class="markdownIt-Anchor" href="#转义反引号"></a> 转义反引号</h3>
+<p>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号<code>``</code>中。<br />
+Markdown语法:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``Use `code` in your Markdown file.``</span><br></pre></td></tr></table></figure>
+<p>HTML:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">code</span>&gt;</span>Use `code` in your Markdown file.<span class="tag">&lt;/<span class="name">code</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="代码块"><a class="markdownIt-Anchor" href="#代码块"></a> 代码块</h3>
+<p>要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。<br />
+例如：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<pre><code>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+&lt;/html&gt;
+</code></pre>
+<br>
+<hr />
+<h2 id="markdown-分隔线语法"><a class="markdownIt-Anchor" href="#markdown-分隔线语法"></a> Markdown 分隔线语法</h2>
+<h3 id="分隔线基础语法"><a class="markdownIt-Anchor" href="#分隔线基础语法"></a> 分隔线基础语法</h3>
+<p>要创建分隔线，请在单独一行上使用三个或多个星号 <code>***</code>、破折号 <code>---</code> 或下划线 <code>___</code> ，并且不能包含其他内容。<br />
+如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br><span class="line">___</span><br></pre></td></tr></table></figure>
+<p>渲染效果如下：</p>
+<hr />
+<hr />
+<hr />
+<h3 id="分隔线最佳格式"><a class="markdownIt-Anchor" href="#分隔线最佳格式"></a> 分隔线最佳格式</h3>
+<p>为了兼容性，请在分隔线的前后均添加空白行。</p>
+<hr />
+<h2 id="markdown-链接语法"><a class="markdownIt-Anchor" href="#markdown-链接语法"></a> Markdown 链接语法</h2>
+<p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p>
+<p>超链接Markdown语法代码：<code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code></p>
+<p>对应的HTML代码：<code>&lt;a href=&quot;超链接地址&quot; title=&quot;超链接title&quot;&gt;超链接显示名&lt;/a&gt;</code><br />
+如：<br />
+<code>这是一个链接 [Markdown语法](https://markdown.com.cn)。</code><br />
+渲染效果如下：<br />
+这是一个链接 <a href="https://markdown.com.cn">Markdown语法</a>。</p>
+<h3 id="给链接增加-title"><a class="markdownIt-Anchor" href="#给链接增加-title"></a> 给链接增加 Title</h3>
+<p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。<br />
+<code>这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。</code><br />
+渲染效果如下：<br />
+这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。</p>
+<h3 id="网址和email地址"><a class="markdownIt-Anchor" href="#网址和email地址"></a> 网址和Email地址</h3>
+<p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
+<p>渲染效果如下：<br />
+<a href="https://markdown.com.cn">https://markdown.com.cn</a><br />
+<a href="mailto:fake@example.com">fake@example.com</a></p>
+<h3 id="带格式化的链接"><a class="markdownIt-Anchor" href="#带格式化的链接"></a> 带格式化的链接</h3>
+<p>强调 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https://eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https://www.markdownguide.org)*.</span><br><span class="line">See the section on [`code`](#code).</span><br></pre></td></tr></table></figure>
+<p>渲染效果如下：<br />
+I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br />
+This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br />
+See the section on <a href="#code"><code>code</code></a>.</p>
+<h3 id="引用类型链接"><a class="markdownIt-Anchor" href="#引用类型链接"></a> 引用类型链接</h3>
+<p>引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。参考样式链接分为两部分：与文本保持内联的部分以及存储在文件中其他位置的部分，以使文本易于阅读。</p>
+<h4 id="链接的第一部分格式"><a class="markdownIt-Anchor" href="#链接的第一部分格式"></a> 链接的第一部分格式</h4>
+<p>引用类型的链接的第一部分使用两组括号进行格式设置。第一组方括号包围应显示为链接的文本。第二组括号显示了一个标签，该标签用于指向您存储在文档其他位置的链接。</p>
+<p>尽管不是必需的，可以在第一组和第二组括号之间包含一个空格。第二组括号中的标签不区分大小写，可以包含字母，数字，空格或标点符号。</p>
+<p>以下示例格式对于链接的第一部分效果相同：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[hobbit-hole][1]</span><br><span class="line">[hobbit-hole] [1]</span><br></pre></td></tr></table></figure>
+<h4 id="链接的第二部分格式"><a class="markdownIt-Anchor" href="#链接的第二部分格式"></a> 链接的第二部分格式</h4>
+<p>引用类型链接的第二部分使用以下属性设置格式：</p>
+<ol>
+<li>放在括号中的标签，其后紧跟一个冒号和至少一个空格（例如[label]:）。</li>
+<li>链接的URL，可以选择将其括在尖括号中。</li>
+<li>链接的可选标题，可以将其括在双引号，单引号或括号中。</li>
+</ol>
+<p>以下示例格式对于链接的第二部分效果相同：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle &quot;Hobbit lifestyles&quot;</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle &#x27;Hobbit lifestyles&#x27;</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; &quot;Hobbit lifestyles&quot;</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; &#x27;Hobbit lifestyles&#x27;</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; (Hobbit lifestyles)</span><br></pre></td></tr></table></figure>
+<p>可以将链接的第二部分放在Markdown文档中的任何位置。有些人将它们放在出现的段落之后，有些人则将它们放在文档的末尾（例如尾注或脚注）。<br />
+如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[hobbit-hole][1]</span><br><span class="line"></span><br><span class="line">[1]:https://en.wikipedia.org/wiki/Hobbit#Lifestyle &quot;Hobbit lifestyles&quot;</span><br></pre></td></tr></table></figure>
+<p>渲染效果如下：<br />
+<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a></p>
+<h3 id="链接最佳格式"><a class="markdownIt-Anchor" href="#链接最佳格式"></a> 链接最佳格式</h3>
+<p>不同的 Markdown 应用程序处理URL中间的空格方式不一样。为了兼容性，请尽量使用%20代替空格。<br />
+使用：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[link](https://www.example.com/my%20great%20page)</span><br></pre></td></tr></table></figure>
+<p>而不是：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[link](https://www.example.com/my great page)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Markdown语法和博客编辑教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
 </search>
