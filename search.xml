@@ -15,65 +15,212 @@
       </tags>
   </entry>
   <entry>
-    <title>第七周每周练习(2023.4.10-2023.4-16)</title>
+    <title>第七周每周练习(2023.4.17-2023.4-23)</title>
     <url>/2023/04/17/WeeklyExercises8thWeek2023-4-17-2023-4-23/</url>
     <content><![CDATA[<link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.11.1/katex.min.css">
-
-<h1 id="每周练习"><a href="#每周练习" class="headerlink" title="每周练习"></a>每周练习</h1><blockquote>
-<p>每周练习一般包括两部分：习题部分和基础知识巩固部分，通过左侧的文章目录可以快速跳转到不同的部分<br>习题部分包含一道基础习题和一道进阶习题<br>答案和题解上传时间：2023.4.21</p>
+<h1 id="每周练习"><a class="markdownIt-Anchor" href="#每周练习"></a> 每周练习</h1>
+<blockquote>
+<p>每周练习一般包括两部分：习题部分和基础知识巩固部分，通过左侧的文章目录可以快速跳转到不同的部分<br />
+习题部分包含一道基础习题和一道进阶习题<br />
+答案和题解上传时间：2023.4.21</p>
 </blockquote>
-<h2 id="习题部分"><a href="#习题部分" class="headerlink" title="习题部分"></a>习题部分</h2><hr>
-<h3 id="习题1：反向输出一个三位数"><a href="#习题1：反向输出一个三位数" class="headerlink" title="习题1：反向输出一个三位数"></a>习题1：反向输出一个三位数</h3><h4 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h4><p>将一个三位数反向输出，例如输入 $358$，反向输出 $853$。</p>
-<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>一个三位数 $n$。</p>
-<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>反向输出 $n$。</p>
-<h4 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h4><h5 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">100</span><br></pre></td></tr></table></figure>
-<h5 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">001</span><br></pre></td></tr></table></figure>
-<h4 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h4><h5 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">678</span><br></pre></td></tr></table></figure>
-<h5 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">876</span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="习题2：最大数输出"><a href="#习题2：最大数输出" class="headerlink" title="习题2：最大数输出"></a>习题2：最大数输出</h3><h4 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h4><p>输入三个整数，输出最大的数。</p>
-<h4 id="输入格式-1"><a href="#输入格式-1" class="headerlink" title="输入格式"></a>输入格式</h4><p>输入为一行，包含三个整数，数与数之间以一个空格分开。</p>
-<h4 id="输出格式-1"><a href="#输出格式-1" class="headerlink" title="输出格式"></a>输出格式</h4><p>输出一行，包含一个整数，即最大的整数。</p>
-<h4 id="样例-1-1"><a href="#样例-1-1" class="headerlink" title="样例 #1"></a>样例 #1</h4><h5 id="样例输入-1-1"><a href="#样例输入-1-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">10 20 56</span><br></pre></td></tr></table></figure>
-<h5 id="样例输出-1-1"><a href="#样例输出-1-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">56</span><br></pre></td></tr></table></figure>
-<h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4><h5 id="数据规模与约定"><a href="#数据规模与约定" class="headerlink" title="数据规模与约定"></a>数据规模与约定</h5><p>对于全部的测试点，保证输入的整数均在 32 位有符号整型 (<code>int</code>/<code>long int</code>) 范围内。</p>
-<hr>
+<h2 id="习题部分"><a class="markdownIt-Anchor" href="#习题部分"></a> 习题部分</h2>
+<hr />
+<h3 id="习题1反向输出一个三位数"><a class="markdownIt-Anchor" href="#习题1反向输出一个三位数"></a> 习题1：反向输出一个三位数</h3>
+<h4 id="题目描述"><a class="markdownIt-Anchor" href="#题目描述"></a> 题目描述</h4>
+<p>将一个三位数反向输出，例如输入 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>358</mn></mrow><annotation encoding="application/x-tex">358</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">5</span><span class="mord">8</span></span></span></span>，反向输出 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>853</mn></mrow><annotation encoding="application/x-tex">853</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">5</span><span class="mord">3</span></span></span></span>。</p>
+<h4 id="输入格式"><a class="markdownIt-Anchor" href="#输入格式"></a> 输入格式</h4>
+<p>一个三位数 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span>。</p>
+<h4 id="输出格式"><a class="markdownIt-Anchor" href="#输出格式"></a> 输出格式</h4>
+<p>反向输出 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span>。</p>
+<h4 id="样例-1"><a class="markdownIt-Anchor" href="#样例-1"></a> 样例 #1</h4>
+<h5 id="样例输入-1"><a class="markdownIt-Anchor" href="#样例输入-1"></a> 样例输入 #1</h5>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">100</span><br></pre></td></tr></table></figure>
+<h5 id="样例输出-1"><a class="markdownIt-Anchor" href="#样例输出-1"></a> 样例输出 #1</h5>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">001</span><br></pre></td></tr></table></figure>
+<h4 id="样例-2"><a class="markdownIt-Anchor" href="#样例-2"></a> 样例 #2</h4>
+<h5 id="样例输入-2"><a class="markdownIt-Anchor" href="#样例输入-2"></a> 样例输入 #2</h5>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">678</span><br></pre></td></tr></table></figure>
+<h5 id="样例输出-2"><a class="markdownIt-Anchor" href="#样例输出-2"></a> 样例输出 #2</h5>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">876</span><br></pre></td></tr></table></figure>
+<hr />
+<h3 id="习题2最大数输出"><a class="markdownIt-Anchor" href="#习题2最大数输出"></a> 习题2：最大数输出</h3>
+<h4 id="题目描述-2"><a class="markdownIt-Anchor" href="#题目描述-2"></a> 题目描述</h4>
+<p>输入三个整数，输出最大的数。</p>
+<h4 id="输入格式-2"><a class="markdownIt-Anchor" href="#输入格式-2"></a> 输入格式</h4>
+<p>输入为一行，包含三个整数，数与数之间以一个空格分开。</p>
+<h4 id="输出格式-2"><a class="markdownIt-Anchor" href="#输出格式-2"></a> 输出格式</h4>
+<p>输出一行，包含一个整数，即最大的整数。</p>
+<h4 id="样例-1-2"><a class="markdownIt-Anchor" href="#样例-1-2"></a> 样例 #1</h4>
+<h5 id="样例输入-1-2"><a class="markdownIt-Anchor" href="#样例输入-1-2"></a> 样例输入 #1</h5>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">10 20 56</span><br></pre></td></tr></table></figure>
+<h5 id="样例输出-1-2"><a class="markdownIt-Anchor" href="#样例输出-1-2"></a> 样例输出 #1</h5>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">56</span><br></pre></td></tr></table></figure>
+<h4 id="提示"><a class="markdownIt-Anchor" href="#提示"></a> 提示</h4>
+<h5 id="数据规模与约定"><a class="markdownIt-Anchor" href="#数据规模与约定"></a> 数据规模与约定</h5>
+<p>对于全部的测试点，保证输入的整数均在 32 位有符号整型 (<code>int</code>/<code>long int</code>) 范围内。</p>
+<hr />
 <blockquote>
 <p>题解可以提交至邮箱3181457165@qq.com</p>
 </blockquote>
-<hr>
-<h2 id="基础知识巩固部分"><a href="#基础知识巩固部分" class="headerlink" title="基础知识巩固部分"></a>基础知识巩固部分</h2><h3 id="C语言的数据类型"><a href="#C语言的数据类型" class="headerlink" title="C语言的数据类型"></a>C语言的数据类型</h3><p>在 C 语言中，数据类型指的是用于声明不同类型的变量或函数的一个广泛的系统。变量的类型决定了变量存储占用的空间，以及如何解释存储的位模式。<br>C 中的类型可分为以下几种：<br>|序号|类型与描述|<br>|—-|—-|<br>|1|<strong>基本数据类型</strong><br>它们是算术类型，包括整型（int）、字符型（char）、浮点型（float）和双精度浮点型（double）。|<br>|2|<strong>枚举类型</strong><br>它们也是算术类型，被用来定义在程序中只能赋予其一定的离散整数值的变量。|<br>|3|<strong>void 类型</strong><br>类型说明符 void 表示没有值的数据类型，通常用于函数返回值。|<br>|4|<strong>派生类型</strong><br>包括数组类型、指针类型和结构体类型。|<br>数组类型和结构类型统称为聚合类型。函数的类型指的是函数返回值的类型。在本周接下来的部分我们将介绍基本类型，其他几种类型会在后边基础巩固中进行讲解。</p>
-<h4 id="整数类型"><a href="#整数类型" class="headerlink" title="整数类型"></a>整数类型</h4><p>下表列出了关于标准整数类型的存储大小和值范围的细节（了解就好，最好记住大致范围）<br>| 类型    |存储大小     |值范围     |<br>| —- | —- | —- |<br>|char     |1 字节     |-128 到 127 或 0 到 255     |<br>|unsigned char     |1 字节     |0 到 255     |<br>|signed char     |1 字节     |-128 到 127     |<br>|int     |2 或 4 字节     |    -32,768 到 32,767 或 -2,147,483,648 到 2,147,483,647     |<br>|unsigned int     |2 或 4 字节     |0 到 65,535 或 0 到 4,294,967,295     |<br>|short     |2 字节     |-32,768 到 32,767     |<br>|unsigned short     |2 字节     |0 到 65,535     |<br>|long     |4 字节     |-2,147,483,648 到 2,147,483,647     |<br>|unsigned long     |4 字节     |0 到 4,294,967,295     |</p>
-<p><br></p>
+<hr />
+<h2 id="基础知识巩固部分"><a class="markdownIt-Anchor" href="#基础知识巩固部分"></a> 基础知识巩固部分</h2>
+<h3 id="c语言的数据类型"><a class="markdownIt-Anchor" href="#c语言的数据类型"></a> C语言的数据类型</h3>
+<p>在 C 语言中，数据类型指的是用于声明不同类型的变量或函数的一个广泛的系统。变量的类型决定了变量存储占用的空间，以及如何解释存储的位模式。<br />
+C 中的类型可分为以下几种：</p>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>类型与描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>基本数据类型</strong><br>它们是算术类型，包括整型（int）、字符型（char）、浮点型（float）和双精度浮点型（double）。</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>枚举类型</strong><br>它们也是算术类型，被用来定义在程序中只能赋予其一定的离散整数值的变量。</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>void 类型</strong><br>类型说明符 void 表示没有值的数据类型，通常用于函数返回值。</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>派生类型</strong><br>包括数组类型、指针类型和结构体类型。</td>
+</tr>
+<tr>
+<td>数组类型和结构类型统称为聚合类型。函数的类型指的是函数返回值的类型。在本周接下来的部分我们将介绍基本类型，其他几种类型会在后边基础巩固中进行讲解。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="整数类型"><a class="markdownIt-Anchor" href="#整数类型"></a> 整数类型</h4>
+<p>下表列出了关于标准整数类型的存储大小和值范围的细节（了解就好，最好记住大致范围）</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>存储大小</th>
+<th>值范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>char</td>
+<td>1 字节</td>
+<td>-128 到 127 或 0 到 255</td>
+</tr>
+<tr>
+<td>unsigned char</td>
+<td>1 字节</td>
+<td>0 到 255</td>
+</tr>
+<tr>
+<td>signed char</td>
+<td>1 字节</td>
+<td>-128 到 127</td>
+</tr>
+<tr>
+<td>int</td>
+<td>2 或 4 字节</td>
+<td>-32,768 到 32,767 或 -2,147,483,648 到 2,147,483,647</td>
+</tr>
+<tr>
+<td>unsigned int</td>
+<td>2 或 4 字节</td>
+<td>0 到 65,535 或 0 到 4,294,967,295</td>
+</tr>
+<tr>
+<td>short</td>
+<td>2 字节</td>
+<td>-32,768 到 32,767</td>
+</tr>
+<tr>
+<td>unsigned short</td>
+<td>2 字节</td>
+<td>0 到 65,535</td>
+</tr>
+<tr>
+<td>long</td>
+<td>4 字节</td>
+<td>-2,147,483,648 到 2,147,483,647</td>
+</tr>
+<tr>
+<td>unsigned long</td>
+<td>4 字节</td>
+<td>0 到 4,294,967,295</td>
+</tr>
+</tbody>
+</table>
+<br>
 <details>
 <summary>为什么存储大小不确定</summary>
 注意，各种类型的存储大小与系统位数有关，但目前通用的以64位系统为主。
 以下列出了32位系统与64位系统的存储大小的差别（windows 相同）：
 ![为什么存储大小不确定](vx_images/381863122230453.png)
 为了得到某个类型或某个变量在特定平台上的准确大小，可以使用 sizeof 运算符。表达式 sizeof(type) 得到对象或类型的存储字节大小。代码如下：
-
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;limits.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;int 存储大小 : %lu \n&quot;</span>, <span class="keyword">sizeof</span>(<span class="type">int</span>));</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 </details>
-
-<h4 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h4><p>下表列出了关于标准浮点类型的存储大小、值范围和精度的细节：<br>|类型     |存储大小     |范围值     |精度|<br>| —- | —- | —- | —- |<br>|flaot     |4 字节     |    1.2E-38 到 3.4E+38     |6 位有效位 |<br>|double     |8 字节     |2.3E-308 到 1.7E+308     |15 位有效位 |<br>|long double     |16 字节     |3.4E-4932 到 1.1E+4932     |19 位有效位 |</p>
-<p>头文件 float.h 定义了宏，在程序中可以使用这些值和其他有关实数二进制表示的细节。下列代码将输出浮点类型占用的存储空间以及它的范围值：<br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;float.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 存储最大字节数 : %lu \n&quot;</span>, <span class="keyword">sizeof</span>(<span class="type">float</span>));</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 最小值: %E\n&quot;</span>, FLT_MIN );</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 最大值: %E\n&quot;</span>, FLT_MAX );</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;精度值: %d\n&quot;</span>, FLT_DIG );</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>%E 为以指数形式输出单、双精度实数。</p>
-<p>在 Linux 上编译并执行上面的程序时，它会产生下列结果：<br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">float</span> 存储最大字节数 : <span class="number">4</span> </span><br><span class="line"><span class="type">float</span> 最小值: <span class="number">1.175494E-38</span></span><br><span class="line"><span class="type">float</span> 最大值: <span class="number">3.402823E+38</span></span><br><span class="line">精度值: <span class="number">6</span></span><br></pre></td></tr></table></figure></p>
-<h4 id="void类型"><a href="#void类型" class="headerlink" title="void类型"></a>void类型</h4><p>void 类型指定没有可用的值。它通常用于以下三种情况下：</p>
+<h4 id="浮点类型"><a class="markdownIt-Anchor" href="#浮点类型"></a> 浮点类型</h4>
+<p>下表列出了关于标准浮点类型的存储大小、值范围和精度的细节：</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>存储大小</th>
+<th>范围值</th>
+<th>精度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>flaot</td>
+<td>4 字节</td>
+<td>1.2E-38 到 3.4E+38</td>
+<td>6 位有效位</td>
+</tr>
+<tr>
+<td>double</td>
+<td>8 字节</td>
+<td>2.3E-308 到 1.7E+308</td>
+<td>15 位有效位</td>
+</tr>
+<tr>
+<td>long double</td>
+<td>16 字节</td>
+<td>3.4E-4932 到 1.1E+4932</td>
+<td>19 位有效位</td>
+</tr>
+</tbody>
+</table>
+<p>头文件 float.h 定义了宏，在程序中可以使用这些值和其他有关实数二进制表示的细节。下列代码将输出浮点类型占用的存储空间以及它的范围值：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;float.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 存储最大字节数 : %lu \n&quot;</span>, <span class="keyword">sizeof</span>(<span class="type">float</span>));</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 最小值: %E\n&quot;</span>, FLT_MIN );</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 最大值: %E\n&quot;</span>, FLT_MAX );</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;精度值: %d\n&quot;</span>, FLT_DIG );</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>%E 为以指数形式输出单、双精度实数。</p>
+<p>在 Linux 上编译并执行上面的程序时，它会产生下列结果：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">float</span> 存储最大字节数 : <span class="number">4</span> </span><br><span class="line"><span class="type">float</span> 最小值: <span class="number">1.175494E-38</span></span><br><span class="line"><span class="type">float</span> 最大值: <span class="number">3.402823E+38</span></span><br><span class="line">精度值: <span class="number">6</span></span><br></pre></td></tr></table></figure>
+<h4 id="void类型"><a class="markdownIt-Anchor" href="#void类型"></a> void类型</h4>
+<p>void 类型指定没有可用的值。它通常用于以下三种情况下：</p>
 <ol>
 <li><strong>函数返回为空</strong><br>C 中有各种函数都不返回值，或者您可以说它们返回空。不返回值的函数的返回类型为空。例如 void exit (int status);</li>
 <li><strong>函数参数为空</strong><br>C 中有各种函数不接受任何参数。不带参数的函数可以接受一个 void。例如 int rand(void);</li>
-<li><strong>指针指向 void</strong><br>类型为 void <em> 的指针代表对象的地址，而不是类型。例如，内存分配函数 void </em>malloc( size_t size ); 返回指向 void 的指针，可以转换为任何数据类型。</li>
+<li><strong>指针指向 void</strong><br>类型为 void * 的指针代表对象的地址，而不是类型。例如，内存分配函数 void *malloc( size_t size ); 返回指向 void 的指针，可以转换为任何数据类型。</li>
 </ol>
 <p>如果现在还是无法完全理解 void 类型，在后续的博客中将会详细讲解这些概念。</p>
-<h4 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h4><p>类型转换是将一个数据类型的值转换为另一种数据类型的值。<br>C 语言中有两种类型转换：</p>
+<h4 id="类型转换"><a class="markdownIt-Anchor" href="#类型转换"></a> 类型转换</h4>
+<p>类型转换是将一个数据类型的值转换为另一种数据类型的值。<br />
+C 语言中有两种类型转换：</p>
 <ul>
 <li><strong>隐式类型转换</strong><br>隐式类型转换是在表达式中自动发生的，无需进行任何明确的指令或函数调用。它通常是将一种较小的类型自动转换为较大的类型，例如，将int类型转换为long类型或float类型转换为double类型。隐式类型转换也可能会导致数据精度丢失或数据截断。</li>
 <li><strong>显式类型转换</strong><br>显式类型转换需要使用强制类型转换运算符（type casting operator），它可以将一个数据类型的值强制转换为另一种数据类型的值。强制类型转换可以使程序员在必要时对数据类型进行更精确的控制，但也可能会导致数据丢失或截断。</li>
 </ul>
-<p><strong>隐式类型转换</strong><br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> i = <span class="number">10</span>;</span><br><span class="line"><span class="type">float</span> f = <span class="number">3.14</span>;</span><br><span class="line"><span class="type">double</span> d = i + f; <span class="comment">// 隐式将int类型转换为double类型</span></span><br></pre></td></tr></table></figure></p>
-<p><strong>显式类型转换</strong><br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">double</span> d = <span class="number">3.14159</span>;</span><br><span class="line"><span class="type">int</span> i = (<span class="type">int</span>)d; <span class="comment">// 显式将double类型转换为int类型</span></span><br></pre></td></tr></table></figure></p>
-]]></content>
+<p><strong>隐式类型转换</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> i = <span class="number">10</span>;</span><br><span class="line"><span class="type">float</span> f = <span class="number">3.14</span>;</span><br><span class="line"><span class="type">double</span> d = i + f; <span class="comment">// 隐式将int类型转换为double类型</span></span><br></pre></td></tr></table></figure>
+<p><strong>显式类型转换</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">double</span> d = <span class="number">3.14159</span>;</span><br><span class="line"><span class="type">int</span> i = (<span class="type">int</span>)d; <span class="comment">// 显式将double类型转换为int类型</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>每周练习</category>
       </categories>
