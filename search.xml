@@ -92,12 +92,9 @@ C 中的类型可分为以下几种：</p>
 <td>4</td>
 <td><strong>派生类型</strong><br>包括数组类型、指针类型和结构体类型。</td>
 </tr>
-<tr>
-<td>数组类型和结构类型统称为聚合类型。函数的类型指的是函数返回值的类型。在本周接下来的部分我们将介绍基本类型，其他几种类型会在后边基础巩固中进行讲解。</td>
-<td></td>
-</tr>
 </tbody>
 </table>
+<p>数组类型和结构类型统称为聚合类型。函数的类型指的是函数返回值的类型。在本周接下来的部分我们将介绍基本类型，其他几种类型会在后边基础巩固中进行讲解。</p>
 <h4 id="整数类型"><a class="markdownIt-Anchor" href="#整数类型"></a> 整数类型</h4>
 <p>下表列出了关于标准整数类型的存储大小和值范围的细节（了解就好，最好记住大致范围）</p>
 <table>
@@ -161,7 +158,7 @@ C 中的类型可分为以下几种：</p>
 <summary>为什么存储大小不确定</summary>
 注意，各种类型的存储大小与系统位数有关，但目前通用的以64位系统为主。
 以下列出了32位系统与64位系统的存储大小的差别（windows 相同）：
-![为什么存储大小不确定](vx_images/381863122230453.png)
+![为什么存储大小不确定](https://www.runoob.com/wp-content/uploads/2014/09/32-64.jpg)
 为了得到某个类型或某个变量在特定平台上的准确大小，可以使用 sizeof 运算符。表达式 sizeof(type) 得到对象或类型的存储字节大小。代码如下：
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;limits.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;int 存储大小 : %lu \n&quot;</span>, <span class="keyword">sizeof</span>(<span class="type">int</span>));</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
