@@ -1,88 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>BasicTools</title>
-    <url>/2023/04/06/BasicTools/</url>
-    <content><![CDATA[<h1 id="基础工具合集"><a class="markdownIt-Anchor" href="#基础工具合集"></a> 基础工具合集</h1>
-<h2 id="图床博客书写的常用工具"><a class="markdownIt-Anchor" href="#图床博客书写的常用工具"></a> 图床：博客书写的常用工具！</h2>
-<h3 id="imgurl-图床"><a class="markdownIt-Anchor" href="#imgurl-图床"></a> ImgURL 图床</h3>
-<p><a href="https://www.imgurl.org/">ImgURL</a>老牌免费图床服务，稳定性好，无需注册。游客限制每日上传10张，单张图片不能超过 5M，支持 HTTPS。诞生于2017年12月,是一款开源图片管理系统(简称图床),无需注册即可支持多图上传、粘贴上传、URL上传,图片压缩、图片鉴黄等多种功能,同时也支持自建。</p>
-<h3 id="postimage-图床"><a class="markdownIt-Anchor" href="#postimage-图床"></a> PostImage 图床</h3>
-<p><a href="https://postimages.org/">PostImage</a>外国免费图床网站，支持按照一定大小缩放图片及设置图片过期自动删除。</p>
-<h2 id="流程图理清思路学习必备"><a class="markdownIt-Anchor" href="#流程图理清思路学习必备"></a> 流程图：理清思路，学习必备</h2>
-<h3 id="橘猫简图"><a class="markdownIt-Anchor" href="#橘猫简图"></a> 橘猫简图</h3>
-<p><a href="https://mind.pictureknow.com/">橘猫简图</a>免费流程图绘制网站</p>
-<h2 id="常见代码工具集"><a class="markdownIt-Anchor" href="#常见代码工具集"></a> 常见代码工具集</h2>
-<p><a href="https://www.toolnb.com/">爱资料工具</a><br />
-<a href="https://www.matools.com">码工具</a><br />
-<a href="https://www.aconvert.com/cn/">在线格式转换工具</a><br />
-<a href="https://tool.lu/">在线免费工具</a><br />
-<a href="https://tool.oschina.net/">在线工具</a><br />
-<a href="https://www.atool99.com/Atool">在线工具</a><br />
-<a href="https://www.w3school.com.cn/index.html">免费web编辑工具网站</a><br />
-<a href="https://www.gitbook.com/">排版工具</a><br />
-<a href="https://www.runoob.com/w3cnote/github-tools.html">GitHub上整理的一些工具</a></p>
-]]></content>
-      <tags>
-        <tag>Tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内置Bilibili教程</title>
-    <url>/2023/04/07/Bilibili/</url>
-    <content><![CDATA[<h1 id="如何使用插件在博客中添加视频页面"><a class="markdownIt-Anchor" href="#如何使用插件在博客中添加视频页面"></a> 如何使用插件在博客中添加视频页面</h1>
-<p>为了在博客中内置视频，我们集成了两个视频插入插件供选择</p>
-<hr />
-<h2 id="hexo-bilibili-card"><a class="markdownIt-Anchor" href="#hexo-bilibili-card"></a> hexo-bilibili-card</h2>
-<h3 id="usage-使用"><a class="markdownIt-Anchor" href="#usage-使用"></a> Usage 使用</h3>
-<p><br />
-在你的markdown文件中插入以下片段</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% bilicard your_video_id %&#125;</span><br></pre></td></tr></table></figure>
-<p><code>your_video_id</code> 是b站的bv号或av号。</p>
-<p>然后你就可以看见文章中的卡片了。</p>
-<h3 id="preview-预览"><a class="markdownIt-Anchor" href="#preview-预览"></a> Preview 预览</h3>
-<div class="bvideo"><a href="//www.bilibili.com/video/BV1LN411A72k" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/548dfb1ee7e8756bde3377fcdce1b0b0614f2ebb.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:10:39</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">国风蛋糕天花板，还有谁谁谁谁谁谁？！！</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>12.8万</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>702</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">乔一烘焙</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-<hr />
-<h2 id="hexo-tag-bilibili"><a class="markdownIt-Anchor" href="#hexo-tag-bilibili"></a> hexo-tag-bilibili</h2>
-<h3 id="usage-使用-2"><a class="markdownIt-Anchor" href="#usage-使用-2"></a> Usage 使用</h3>
-<p><br />
-你可以这样使用：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% bilibili [av_id] %&#125;</span><br><span class="line">or</span><br><span class="line">&#123;% bilibili [av_id] [page] %&#125;</span><br></pre></td></tr></table></figure>
-<p>例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% bilibili 2333333 3 %&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="preview-预览-2"><a class="markdownIt-Anchor" href="#preview-预览-2"></a> Preview 预览</h3>
-<div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=311981284&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div>]]></content>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>FirstAnnouncement</title>
     <url>/2023/04/06/FirstAnnouncement/</url>
     <content><![CDATA[<h1 id="公告这是一个自建网站"><a class="markdownIt-Anchor" href="#公告这是一个自建网站"></a> 公告：这是一个自建网站！</h1>
@@ -97,60 +15,252 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown-1</title>
-    <url>/2023/04/08/Markdown-1/</url>
-    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-1"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-1"></a> Markdown语法和博客编辑教程-1</h1>
-<hr />
-<h2 id="markdown标题语法"><a class="markdownIt-Anchor" href="#markdown标题语法"></a> Markdown标题语法</h2>
-<p>要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
-<p>如：本节教程大标题<code>Markdown语法和博客编辑教程-1</code>就是一级标题，而<code>Markdown标题语法</code>则是二级标题。<br></p>
-<h3 id="可选语法"><a class="markdownIt-Anchor" href="#可选语法"></a> 可选语法</h3>
-<p>还可以在文本下方添加任意数量的 == 号来标识一级标题，或者 – 号来标识二级标题。<br />
-<br></p>
-<h3 id="最佳格式"><a class="markdownIt-Anchor" href="#最佳格式"></a> 最佳格式</h3>
+    <title>第七周每周练习(2023.4.10-2023.4-16)</title>
+    <url>/2023/04/17/WeeklyExercises8thWeek2023-4-17-2023-4-23/</url>
+    <content><![CDATA[<link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.11.1/katex.min.css">
+
+<h1 id="每周练习"><a href="#每周练习" class="headerlink" title="每周练习"></a>每周练习</h1><blockquote>
+<p>每周练习一般包括两部分：习题部分和基础知识巩固部分，通过左侧的文章目录可以快速跳转到不同的部分<br>习题部分包含一道基础习题和一道进阶习题<br>答案和题解上传时间：2023.4.21</p>
+</blockquote>
+<h2 id="习题部分"><a href="#习题部分" class="headerlink" title="习题部分"></a>习题部分</h2><hr>
+<h3 id="习题1：反向输出一个三位数"><a href="#习题1：反向输出一个三位数" class="headerlink" title="习题1：反向输出一个三位数"></a>习题1：反向输出一个三位数</h3><h4 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h4><p>将一个三位数反向输出，例如输入 $358$，反向输出 $853$。</p>
+<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>一个三位数 $n$。</p>
+<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>反向输出 $n$。</p>
+<h4 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h4><h5 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">100</span><br></pre></td></tr></table></figure>
+<h5 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">001</span><br></pre></td></tr></table></figure>
+<h4 id="样例-2"><a href="#样例-2" class="headerlink" title="样例 #2"></a>样例 #2</h4><h5 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">678</span><br></pre></td></tr></table></figure>
+<h5 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">876</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="习题2：最大数输出"><a href="#习题2：最大数输出" class="headerlink" title="习题2：最大数输出"></a>习题2：最大数输出</h3><h4 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h4><p>输入三个整数，输出最大的数。</p>
+<h4 id="输入格式-1"><a href="#输入格式-1" class="headerlink" title="输入格式"></a>输入格式</h4><p>输入为一行，包含三个整数，数与数之间以一个空格分开。</p>
+<h4 id="输出格式-1"><a href="#输出格式-1" class="headerlink" title="输出格式"></a>输出格式</h4><p>输出一行，包含一个整数，即最大的整数。</p>
+<h4 id="样例-1-1"><a href="#样例-1-1" class="headerlink" title="样例 #1"></a>样例 #1</h4><h5 id="样例输入-1-1"><a href="#样例输入-1-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">10 20 56</span><br></pre></td></tr></table></figure>
+<h5 id="样例输出-1-1"><a href="#样例输出-1-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">56</span><br></pre></td></tr></table></figure>
+<h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4><h5 id="数据规模与约定"><a href="#数据规模与约定" class="headerlink" title="数据规模与约定"></a>数据规模与约定</h5><p>对于全部的测试点，保证输入的整数均在 32 位有符号整型 (<code>int</code>/<code>long int</code>) 范围内。</p>
+<hr>
+<blockquote>
+<p>题解可以提交至邮箱3181457165@qq.com</p>
+</blockquote>
+<hr>
+<h2 id="基础知识巩固部分"><a href="#基础知识巩固部分" class="headerlink" title="基础知识巩固部分"></a>基础知识巩固部分</h2><h3 id="C语言的数据类型"><a href="#C语言的数据类型" class="headerlink" title="C语言的数据类型"></a>C语言的数据类型</h3><p>在 C 语言中，数据类型指的是用于声明不同类型的变量或函数的一个广泛的系统。变量的类型决定了变量存储占用的空间，以及如何解释存储的位模式。<br>C 中的类型可分为以下几种：<br>|序号|类型与描述|<br>|—-|—-|<br>|1|<strong>基本数据类型</strong><br>它们是算术类型，包括整型（int）、字符型（char）、浮点型（float）和双精度浮点型（double）。|<br>|2|<strong>枚举类型</strong><br>它们也是算术类型，被用来定义在程序中只能赋予其一定的离散整数值的变量。|<br>|3|<strong>void 类型</strong><br>类型说明符 void 表示没有值的数据类型，通常用于函数返回值。|<br>|4|<strong>派生类型</strong><br>包括数组类型、指针类型和结构体类型。|<br>数组类型和结构类型统称为聚合类型。函数的类型指的是函数返回值的类型。在本周接下来的部分我们将介绍基本类型，其他几种类型会在后边基础巩固中进行讲解。</p>
+<h4 id="整数类型"><a href="#整数类型" class="headerlink" title="整数类型"></a>整数类型</h4><p>下表列出了关于标准整数类型的存储大小和值范围的细节（了解就好，最好记住大致范围）<br>| 类型    |存储大小     |值范围     |<br>| —- | —- | —- |<br>|char     |1 字节     |-128 到 127 或 0 到 255     |<br>|unsigned char     |1 字节     |0 到 255     |<br>|signed char     |1 字节     |-128 到 127     |<br>|int     |2 或 4 字节     |    -32,768 到 32,767 或 -2,147,483,648 到 2,147,483,647     |<br>|unsigned int     |2 或 4 字节     |0 到 65,535 或 0 到 4,294,967,295     |<br>|short     |2 字节     |-32,768 到 32,767     |<br>|unsigned short     |2 字节     |0 到 65,535     |<br>|long     |4 字节     |-2,147,483,648 到 2,147,483,647     |<br>|unsigned long     |4 字节     |0 到 4,294,967,295     |</p>
+<p><br></p>
+<details>
+<summary>为什么存储大小不确定</summary>
+注意，各种类型的存储大小与系统位数有关，但目前通用的以64位系统为主。
+以下列出了32位系统与64位系统的存储大小的差别（windows 相同）：
+![为什么存储大小不确定](vx_images/381863122230453.png)
+为了得到某个类型或某个变量在特定平台上的准确大小，可以使用 sizeof 运算符。表达式 sizeof(type) 得到对象或类型的存储字节大小。代码如下：
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;limits.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;int 存储大小 : %lu \n&quot;</span>, <span class="keyword">sizeof</span>(<span class="type">int</span>));</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</details>
+
+<h4 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h4><p>下表列出了关于标准浮点类型的存储大小、值范围和精度的细节：<br>|类型     |存储大小     |范围值     |精度|<br>| —- | —- | —- | —- |<br>|flaot     |4 字节     |    1.2E-38 到 3.4E+38     |6 位有效位 |<br>|double     |8 字节     |2.3E-308 到 1.7E+308     |15 位有效位 |<br>|long double     |16 字节     |3.4E-4932 到 1.1E+4932     |19 位有效位 |</p>
+<p>头文件 float.h 定义了宏，在程序中可以使用这些值和其他有关实数二进制表示的细节。下列代码将输出浮点类型占用的存储空间以及它的范围值：<br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;float.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 存储最大字节数 : %lu \n&quot;</span>, <span class="keyword">sizeof</span>(<span class="type">float</span>));</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 最小值: %E\n&quot;</span>, FLT_MIN );</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;float 最大值: %E\n&quot;</span>, FLT_MAX );</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">&quot;精度值: %d\n&quot;</span>, FLT_DIG );</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>%E 为以指数形式输出单、双精度实数。</p>
+<p>在 Linux 上编译并执行上面的程序时，它会产生下列结果：<br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">float</span> 存储最大字节数 : <span class="number">4</span> </span><br><span class="line"><span class="type">float</span> 最小值: <span class="number">1.175494E-38</span></span><br><span class="line"><span class="type">float</span> 最大值: <span class="number">3.402823E+38</span></span><br><span class="line">精度值: <span class="number">6</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="void类型"><a href="#void类型" class="headerlink" title="void类型"></a>void类型</h4><p>void 类型指定没有可用的值。它通常用于以下三种情况下：</p>
+<ol>
+<li><strong>函数返回为空</strong><br>C 中有各种函数都不返回值，或者您可以说它们返回空。不返回值的函数的返回类型为空。例如 void exit (int status);</li>
+<li><strong>函数参数为空</strong><br>C 中有各种函数不接受任何参数。不带参数的函数可以接受一个 void。例如 int rand(void);</li>
+<li><strong>指针指向 void</strong><br>类型为 void <em> 的指针代表对象的地址，而不是类型。例如，内存分配函数 void </em>malloc( size_t size ); 返回指向 void 的指针，可以转换为任何数据类型。</li>
+</ol>
+<p>如果现在还是无法完全理解 void 类型，在后续的博客中将会详细讲解这些概念。</p>
+<h4 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h4><p>类型转换是将一个数据类型的值转换为另一种数据类型的值。<br>C 语言中有两种类型转换：</p>
 <ul>
-<li>不同的 Markdown 应用程序处理 # 和标题之间的空格方式并不一致。为了兼容考虑，请用一个空格在 # 和标题之间进行分隔。<br />
-<br></li>
+<li><strong>隐式类型转换</strong><br>隐式类型转换是在表达式中自动发生的，无需进行任何明确的指令或函数调用。它通常是将一种较小的类型自动转换为较大的类型，例如，将int类型转换为long类型或float类型转换为double类型。隐式类型转换也可能会导致数据精度丢失或数据截断。</li>
+<li><strong>显式类型转换</strong><br>显式类型转换需要使用强制类型转换运算符（type casting operator），它可以将一个数据类型的值强制转换为另一种数据类型的值。强制类型转换可以使程序员在必要时对数据类型进行更精确的控制，但也可能会导致数据丢失或截断。</li>
 </ul>
+<p><strong>隐式类型转换</strong><br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> i = <span class="number">10</span>;</span><br><span class="line"><span class="type">float</span> f = <span class="number">3.14</span>;</span><br><span class="line"><span class="type">double</span> d = i + f; <span class="comment">// 隐式将int类型转换为double类型</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>显式类型转换</strong><br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">double</span> d = <span class="number">3.14159</span>;</span><br><span class="line"><span class="type">int</span> i = (<span class="type">int</span>)d; <span class="comment">// 显式将double类型转换为int类型</span></span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <categories>
+        <category>每周练习</category>
+      </categories>
+      <tags>
+        <tag>练习题目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindowsUEO-NCM</title>
+    <url>/2023/04/11/WindowsUEO-NCM/</url>
+    <content><![CDATA[<h1 id="windows使用体验优化-网易云"><a class="markdownIt-Anchor" href="#windows使用体验优化-网易云"></a> Windows使用体验优化-网易云</h1>
+<p>使用<strong>BetterNCM！</strong></p>
+<div class="note warning">
+            <p>⚠️ 注意<br>本页面转载自<a href="https://github.com/MicroCBer/BetterNCM/wiki">原作者仓库Wiki</a></p>
+          </div>
+<h2 id="什么是berrerncm"><a class="markdownIt-Anchor" href="#什么是berrerncm"></a> 什么是BerrerNCM？</h2>
+<p>BetterNCM 是一个由一群热爱网易云音乐的云村村友开发的 PC 版网易云音乐扩展工具，可以提供非常丰富的自定义功能扩展增强能力。</p>
+<blockquote>
+<p>作者的声明：<br />
+考虑到工具性质，BetterNCM 将永远是完全开源免费的自由软件，所以如果你是从任何地方发现有任何人在售卖本工具，请立刻要求退款并举报商家！作为一群爱好者，我们不会也没办法为你因为从其它途径购买本工具造成的损失负责！</p>
+</blockquote>
+<h2 id="安装-betterncm"><a class="markdownIt-Anchor" href="#安装-betterncm"></a> 安装 BetterNCM</h2>
+<p>安装分为两种，一种是安装器安装，一种是直接安装。对于普通使用者推荐前者进行安装，更加方便快捷。</p>
+<h3 id="安装器安装-betterncm"><a class="markdownIt-Anchor" href="#安装器安装-betterncm"></a> 安装器安装 BetterNCM</h3>
+<p>下载 BetterNCM 安装器，你可以访问<a href="https://github.com/MicroCBer/BetterNCM-Installer/releases">BetterNCM-Installer 的 Github Release</a>页面，进入下载安装器的最新版本。</p>
+<p>下载后，执行安装器，在弹出的窗口点击安装，稍等片刻后即可安装完成，重启网易云音乐后插件管理器就会开始工作了。</p>
+<p>安装器本身是绿色版本，安装完成后如果你不需要卸载 BetterNCM 的话可以自行删除安装器，不会影响已安装的插件管理器。</p>
+<p>如果无法进入GitHub，这里也有<a href="https://microblock.cc/betterncm">下载链接</a></p>
+<h3 id="直接安装-betterncm"><a class="markdownIt-Anchor" href="#直接安装-betterncm"></a> 直接安装 BetterNCM</h3>
+<p>从<a href="https://github.com/MicroCBer/BetterNCM/releases">本仓库的 Release</a>下载用于注入插件管理器的 DLL 动态库文件，下载完成后重命名成 msimg32.dll 后放在和网易云音乐执行程序文件目录相同的文件夹下，重启网易云音乐后插件管理器就会开始工作了。</p>
+<h2 id="使用-betterncm"><a class="markdownIt-Anchor" href="#使用-betterncm"></a> 使用 BetterNCM</h2>
+<h3 id="打开插件管理器"><a class="markdownIt-Anchor" href="#打开插件管理器"></a> 打开插件管理器</h3>
+<p><img src="https://user-images.githubusercontent.com/39523898/207782128-ffe072b4-9817-4ee5-936a-883d2b796bd3.png" alt="打开插件" /></p>
+<h3 id="安装插件"><a class="markdownIt-Anchor" href="#安装插件"></a> 安装插件</h3>
+<p>在插件管理器中，你可以通过点击左侧的<code>PluginMarket</code>打开插件商店，点击载入插件按钮后等待一会，之后就可以安装你喜欢的插件了：<br />
+<img src="https://user-images.githubusercontent.com/39523898/207782579-5118b5dd-5c77-4b88-b62a-d0a6a3bf1e72.png" alt="安装插件" /></p>
+<div class="note warning">
+            <p>⚠️ 注意<br>每安装一个插件，都会重载一次页面，所以请尽量不要一次性安装多个插件，以免导致安装失败。</p>
+          </div>
+<h3 id="配置插件"><a class="markdownIt-Anchor" href="#配置插件"></a> 配置插件</h3>
+<p>在插件管理器中，你可以点击左侧插件列表的插件切换到它们对应的设置页面，进行插件的配置：<br />
+<img src="https://user-images.githubusercontent.com/39523898/207784047-a033d517-9c42-4566-91fa-6505fb5d4faa.png" alt="配置插件" /></p>
+<div class="note warning">
+            <p>⚠️ 注意<br>每个插件的配置页面和可配置内容各不相同，具体请询问插件制作者。</p>
+          </div>
+<h3 id="卸载插件"><a class="markdownIt-Anchor" href="#卸载插件"></a> 卸载插件</h3>
+<p>在插件管理器中，你可以通过将光标悬浮到左侧的插件列表，会显示出一个删除图标，点击后重载即可卸载完成：<br />
+<img src="https://user-images.githubusercontent.com/39523898/207783827-5dd8ef4d-d508-4172-a0ec-e3657bfca404.png" alt="卸载插件" /></p>
+<h3 id="卸载-betterncm"><a class="markdownIt-Anchor" href="#卸载-betterncm"></a> 卸载 BetterNCM</h3>
+<p>进行卸载工作前，请先关闭正在运行的网易云音乐，以免卸载失败。</p>
+<p>如果是使用安装器安装 BetterNCM 的用户，同样可以在安装器内找到卸载按钮，按下后 BetterNCM 将会自动从你的网易云音乐中移除，之后打开网易云音乐即可恢复原貌。</p>
+<p>如果是直接安装的，以管理员权限删除上文提到的 DLL 文件，和你对应的插件目录（你可以在插件管理器内通过“打开插件文件夹”按钮打开）。之后打开网易云音乐即可恢复原貌。</p>
+<h3 id="修改插件数据位置"><a class="markdownIt-Anchor" href="#修改插件数据位置"></a> 修改插件数据位置</h3>
+<p>可以通过设置环境变量 BETTERNCM_PROFILE 来设置插件数据位置</p>
 <hr />
-<h2 id="markdown段落语法"><a class="markdownIt-Anchor" href="#markdown段落语法"></a> Markdown段落语法</h2>
-<h3 id="基础语法"><a class="markdownIt-Anchor" href="#基础语法"></a> 基础语法</h3>
-<p>要创建段落，请使用空白行将一行或多行文本进行分隔。</p>
+<p>以上就是网易云美化插件</p>
+]]></content>
+      <tags>
+        <tag>桌面美化</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown-5</title>
+    <url>/2023/04/10/Markdown-5/</url>
+    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-5"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-5"></a> Markdown语法和博客编辑教程-5</h1>
+<hr />
+<h2 id="markdown-图片语法"><a class="markdownIt-Anchor" href="#markdown-图片语法"></a> Markdown 图片语法</h2>
+<p>要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br />
+插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。<br />
+对应的HTML代码：<code>&lt;img src=&quot;图片链接&quot; alt=&quot;图片alt&quot; title=&quot;图片title&quot;&gt;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![这是图片](/assets/img/philly-magic-garden.jpg &quot;Magic Gardens&quot;)</span><br></pre></td></tr></table></figure>
+<p><strong>渲染效果如下：</strong><br />
+<img src="https://i.postimg.cc/vHPBqnvG/1.jpg" alt="这是图片" title="Magic Gardens" /></p>
+<h3 id="链接图片"><a class="markdownIt-Anchor" href="#链接图片"></a> 链接图片</h3>
+<p>给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[![这是图片](/assets/img/philly-magic-garden.jpg &quot;Magic Gardens&quot;)](https://markdown.com.cn)</span><br></pre></td></tr></table></figure>
+<p><strong>渲染效果如下：</strong><br />
+<a href="https://markdown.com.cn"><img src="https://i.postimg.cc/vHPBqnvG/1.jpg" alt="这是图片" /></a></p>
+<hr />
+<h2 id="markdown-转义字符语法"><a class="markdownIt-Anchor" href="#markdown-转义字符语法"></a> Markdown 转义字符语法</h2>
+<p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\* Without the backslash, this would be a bullet in an unordered list.</span><br></pre></td></tr></table></figure>
+<p><strong>渲染效果如下：</strong><br />
+* Without the backslash, this would be a bullet in an unordered list.</p>
+<h3 id="可做转义的字符"><a class="markdownIt-Anchor" href="#可做转义的字符"></a> 可做转义的字符</h3>
+<p>以下列出的字符都可以通过使用反斜杠字符从而达到转义目的。</p>
 <table>
 <thead>
 <tr>
-<th>Markdown</th>
-<th>HTML</th>
+<th>Character</th>
+<th>Name</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code> I really like using Markdown.</code></td>
-<td><code>&lt;p&gt;I really like using Markdown.&lt;/p&gt;</code></td>
+<td>\</td>
+<td>backslash</td>
 </tr>
 <tr>
-<td>而在网页中将会显示：</td>
-<td></td>
+<td>`</td>
+<td>backtick</td>
 </tr>
 <tr>
-<td>I really like using Markdown.</td>
-<td></td>
+<td>*</td>
+<td>asterisk</td>
+</tr>
+<tr>
+<td>_</td>
+<td>underscore</td>
+</tr>
+<tr>
+<td>{ }</td>
+<td>curly braces</td>
+</tr>
+<tr>
+<td>[ ]</td>
+<td>brackets</td>
+</tr>
+<tr>
+<td>( )</td>
+<td>parentheses</td>
+</tr>
+<tr>
+<td>#</td>
+<td>pound sign</td>
+</tr>
+<tr>
+<td>+</td>
+<td>plus sign</td>
+</tr>
+<tr>
+<td>-</td>
+<td>minus sign (hyphen)</td>
+</tr>
+<tr>
+<td>.</td>
+<td>dot</td>
+</tr>
+<tr>
+<td>!</td>
+<td>exclamation mark</td>
+</tr>
+<tr>
+<td>|</td>
+<td>pipe</td>
 </tr>
 </tbody>
 </table>
-<h3 id="最佳格式-2"><a class="markdownIt-Anchor" href="#最佳格式-2"></a> 最佳格式</h3>
-<p>直接写出内容，不要使用空格或者制表符（TAB）<br />
-<br></p>
+<h3 id="特殊字符自动转义"><a class="markdownIt-Anchor" href="#特殊字符自动转义"></a> 特殊字符自动转义</h3>
+<p>在 HTML 文件中，有两个字符需要特殊处理： <code>&lt;</code> 和 <code>&amp;</code> 。 <code>&lt;</code> 符号用于起始标签，<code>&amp;</code> 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 <code>&amp;lt;</code> 和 <code>&amp;amp;</code>。</p>
+<p><code>&amp;</code> 符号其实很容易让写作网页文件的人感到困扰，如果你要打<code>「AT&amp;T」</code> ，你必须要写成<code>「AT&amp;amp;T」</code> ，还得转换网址内的 <code>&amp;</code> 符号，如果你要链接到：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://images.google.com/images?num=30&amp;q=larry+bird</span><br></pre></td></tr></table></figure>
+<p>你必须要把网址转成：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://images.google.com/images?num=30&amp;amp;q=larry+bird</span><br></pre></td></tr></table></figure>
+<p>才能放到链接标签的 <code>href</code> 属性里。不用说也知道这很容易忘记，这也可能是 HTML 标准检查所检查到的错误中，数量最多的。</p>
+<p>Markdown 允许你直接使用这些符号，它帮你自动转义字符。如果你使用 <code>&amp;</code> 符号的作为 HTML 实体的一部分，那么它不会被转换，而在其它情况下，它则会被转换成<code> &amp;amp;</code>。所以你如果要在文件中插入一个著作权的符号，你可以这样写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&amp;copy;</span><br></pre></td></tr></table></figure>
+<p>Markdown 将不会对这段文字做修改，但是如果你这样写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AT&amp;T</span><br></pre></td></tr></table></figure>
+<p>Markdown 就会将它转为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AT&amp;amp;T</span><br></pre></td></tr></table></figure>
+<p>类似的状况也会发生在 &lt; 符号上，因为 Markdown 支持 行内 HTML ，如果你使用 &lt; 符号作为 HTML 标签的分隔符，那 Markdown 也不会对它做任何转换，但是如果你是写：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &lt; 5</span><br></pre></td></tr></table></figure>
+<p>Markdown 将会把它转换为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &amp;lt; 5</span><br></pre></td></tr></table></figure>
+<p>需要特别注意的是，在 Markdown 的块级元素和内联元素中， <code>&lt;</code> 和 <code>&amp;</code> 两个符号都会被自动转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML。（在 HTML 语法中，你要手动把所有的 <code>&lt;</code> 和 <code>&amp;</code> 都转换为 HTML 实体。）</p>
 <hr />
-<h2 id="markdown-换行语法"><a class="markdownIt-Anchor" href="#markdown-换行语法"></a> Markdown 换行语法</h2>
-<h3 id="基础语法-2"><a class="markdownIt-Anchor" href="#基础语法-2"></a> 基础语法</h3>
-<p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<code>&lt;br&gt;</code>)。<br />
-<br></p>
-<h3 id="最佳格式-3"><a class="markdownIt-Anchor" href="#最佳格式-3"></a> 最佳格式</h3>
-<p>几乎每个 Markdown 应用程序都支持两个或多个空格进行换行，称为 结尾空格（trailing whitespace) 的方式，但这是有争议的，因为很难在编辑器中直接看到空格，并且很多人在每个句子后面都会有意或无意地添加两个空格。由于这个原因，你可能要使用除结尾空格以外的其它方式来换行。幸运的是，几乎每个 Markdown 应用程序都支持另一种换行方式：HTML 的 <code>&lt;br&gt;</code> 标签。</p>
-<p><strong>为了兼容性，请在行尾添加“结尾空格”或 HTML 的<code>&lt;br&gt;</code>标签来实现换行。</strong></p>
-<p>还有两种其他方式我并不推荐使用。CommonMark 和其它几种轻量级标记语言支持在行尾添加反斜杠 () 的方式实现换行，但是并非所有 Markdown 应用程序都支持此种方式，因此从兼容性的角度来看，不推荐使用。并且至少有两种轻量级标记语言支持无须在行尾添加任何内容，只须键入回车键（return）即可实现换行。</p>
+<h2 id="markdown-内嵌-html-标签"><a class="markdownIt-Anchor" href="#markdown-内嵌-html-标签"></a> Markdown 内嵌 HTML 标签</h2>
+<p>对于 Markdown 涵盖范围之外的标签，都可以直接在文件里面用 HTML 本身。如需使用 HTML，不需要额外标注这是 HTML 或是 Markdown，只需 HTML 标签添加到 Markdown 文本中即可。</p>
+<h3 id="行级內联标签"><a class="markdownIt-Anchor" href="#行级內联标签"></a> 行级內联标签</h3>
+<p>HTML 的行级內联标签如 <code>&lt;span&gt;</code>、<code>&lt;cite&gt;</code>、<code>&lt;del&gt;</code> 不受限制，可以在 Markdown 的段落、列表或是标题里任意使用。依照个人习惯，甚至可以不用 Markdown 格式，而采用 HTML 标签来格式化。例如：如果比较喜欢 HTML 的 <code>&lt;a&gt; </code>或 <code>&lt;img&gt;</code> 标签，可以直接使用这些标签，而不用 Markdown 提供的链接或是图片语法。当你需要更改元素的属性时（例如为文本指定颜色或更改图像的宽度），使用 HTML 标签更方便些。<br />
+HTML 行级內联标签和区块标签不同，在內联标签的范围内， Markdown 的语法是可以解析的。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">This **word** is bold. This <span class="tag">&lt;<span class="name">em</span>&gt;</span>word<span class="tag">&lt;/<span class="name">em</span>&gt;</span> is italic.</span><br></pre></td></tr></table></figure>
+<p><strong>渲染效果如下:</strong><br />
+This <strong>word</strong> is bold. This <em>word</em> is italic.</p>
+<h3 id="区块标签"><a class="markdownIt-Anchor" href="#区块标签"></a> 区块标签</h3>
+<p>区块元素──比如 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code>、<code>&lt;p&gt;</code> 等标签，必须在前后加上空行，以便于内容区分。而且这些元素的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 会自动识别这区块元素，避免在区块标签前后加上没有必要的 <code>&lt;p&gt;</code> 标签。<br />
+例如，在 Markdown 文件里加上一段 HTML 表格：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">This is a regular paragraph.</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span>&gt;</span>Foo<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"></span><br><span class="line">This is another regular paragraph.</span><br></pre></td></tr></table></figure>
+<p>请注意，Markdown 语法在 HTML 区块标签中将不会被进行处理。例如，你无法在 HTML 区块内使用 Markdown 形式的<code>*强调*</code>。</p>
+<h3 id="html最佳格式"><a class="markdownIt-Anchor" href="#html最佳格式"></a> HTML最佳格式</h3>
+<p>出于安全原因，并非所有 Markdown 应用程序都支持在 Markdown 文档中添加 HTML。如有疑问，请查看相应 Markdown 应用程序的手册。某些应用程序只支持 HTML 标签的子集。</p>
+<p>对于 HTML 的块级元素 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code> 和 <code>&lt;p&gt;</code>，请在其前后使用空行（blank lines）与其它内容进行分隔。尽量不要使用制表符（tabs）或空格（spaces）对 HTML 标签做缩进，否则将影响格式。</p>
+<p>在 HTML 块级标签内不能使用 Markdown 语法。例如 <code>&lt;p&gt;italic and **bold**&lt;/p&gt;</code> 将不起作用。</p>
+<hr />
+<p><font size=5>Markdown的基础语法到这里就全部结束了，该分类下，将会继续更新Markdown扩展语法以及博客排版规则等内容<br>敬请期待！</font></p>
 ]]></content>
       <categories>
         <category>Markdown语法和博客编辑教程</category>
@@ -160,82 +270,99 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown-2</title>
-    <url>/2023/04/08/Markdown-2/</url>
-    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-2"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-2"></a> Markdown语法和博客编辑教程-2</h1>
+    <title>Markdown-4</title>
+    <url>/2023/04/09/Markdown-4/</url>
+    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-4"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-4"></a> Markdown语法和博客编辑教程-4</h1>
 <hr />
-<h2 id="markdown强调语法"><a class="markdownIt-Anchor" href="#markdown强调语法"></a> Markdown强调语法</h2>
-<h3 id="粗体"><a class="markdownIt-Anchor" href="#粗体"></a> 粗体</h3>
-<p>要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。<br />
-如<code>**bold text**</code>或<code>__bold text__</code><br />
-效果：<strong>bold text</strong><br />
-<br></p>
-<h3 id="粗体最佳格式"><a class="markdownIt-Anchor" href="#粗体最佳格式"></a> 粗体最佳格式</h3>
-<p>Markdown 应用程序在如何处理单词或短语中间的下划线上并不一致。为兼容考虑，在单词或短语中间部分加粗的话，请使用星号（asterisks）。<br />
-<br></p>
-<h3 id="斜体"><a class="markdownIt-Anchor" href="#斜体"></a> 斜体</h3>
-<p>要用斜体显示文本，请在单词或短语前后添加一个星号（asterisk）或下划线（underscore）。要斜体突出单词的中间部分，请在字母前后各添加一个星号，中间不要带空格。<br />
-如<code>*bold text*</code>或<code>_bold text_</code><br />
-效果：<em>bold text</em><br />
-<br></p>
-<h3 id="斜体最佳格式"><a class="markdownIt-Anchor" href="#斜体最佳格式"></a> 斜体最佳格式</h3>
-<p>Markdown 应用程序在如何处理单词或短语中间的下划线上并不一致。为兼容考虑，在单词或短语中间部分倾斜的话，请使用星号（asterisks）。<br />
-<br></p>
-<h3 id="粗体和斜体"><a class="markdownIt-Anchor" href="#粗体和斜体"></a> 粗体和斜体</h3>
-<p>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。<br />
-如<code>***bold text***</code>或<code>___bold text___</code><br />
-效果：<em><strong>bold text</strong></em><br />
-<br></p>
-<h3 id="粗体和斜体最佳格式"><a class="markdownIt-Anchor" href="#粗体和斜体最佳格式"></a> 粗体和斜体最佳格式</h3>
-<p>Markdown 应用程序在处理单词或短语中间添加的下划线上并不一致。为了实现兼容性，请使用星号将单词或短语的中间部分加粗并以斜体显示，以示重要。<br />
-<br></p>
+<h2 id="markdown-代码语法"><a class="markdownIt-Anchor" href="#markdown-代码语法"></a> Markdown 代码语法</h2>
+<p>要将单词或短语表示为代码，请将其包裹在反引号 <code> </code> ` 中。<br />
+Markdown语法:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">At the command prompt, type `nano`.</span><br></pre></td></tr></table></figure>
+<p>HTML:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">At the command prompt, type <span class="tag">&lt;<span class="name">code</span>&gt;</span>nano<span class="tag">&lt;/<span class="name">code</span>&gt;</span>.</span><br></pre></td></tr></table></figure>
+<h3 id="转义反引号"><a class="markdownIt-Anchor" href="#转义反引号"></a> 转义反引号</h3>
+<p>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号<code>``</code>中。<br />
+Markdown语法:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``Use `code` in your Markdown file.``</span><br></pre></td></tr></table></figure>
+<p>HTML:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">code</span>&gt;</span>Use `code` in your Markdown file.<span class="tag">&lt;/<span class="name">code</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="代码块"><a class="markdownIt-Anchor" href="#代码块"></a> 代码块</h3>
+<p>要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。<br />
+例如：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<pre><code>&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+&lt;/html&gt;
+</code></pre>
+<br>
 <hr />
-<h2 id="markdown-引用语法"><a class="markdownIt-Anchor" href="#markdown-引用语法"></a> Markdown 引用语法</h2>
-<h3 id="基础语法"><a class="markdownIt-Anchor" href="#基础语法"></a> 基础语法</h3>
-<p>要创建块引用，请在段落前添加一个 &gt; 符号。<br />
+<h2 id="markdown-分隔线语法"><a class="markdownIt-Anchor" href="#markdown-分隔线语法"></a> Markdown 分隔线语法</h2>
+<h3 id="分隔线基础语法"><a class="markdownIt-Anchor" href="#分隔线基础语法"></a> 分隔线基础语法</h3>
+<p>要创建分隔线，请在单独一行上使用三个或多个星号 <code>***</code>、破折号 <code>---</code> 或下划线 <code>___</code> ，并且不能包含其他内容。<br />
+如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br><span class="line">___</span><br></pre></td></tr></table></figure>
+<p>渲染效果如下：</p>
+<hr />
+<hr />
+<hr />
+<h3 id="分隔线最佳格式"><a class="markdownIt-Anchor" href="#分隔线最佳格式"></a> 分隔线最佳格式</h3>
+<p>为了兼容性，请在分隔线的前后均添加空白行。</p>
+<hr />
+<h2 id="markdown-链接语法"><a class="markdownIt-Anchor" href="#markdown-链接语法"></a> Markdown 链接语法</h2>
+<p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p>
+<p>超链接Markdown语法代码：<code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code></p>
+<p>对应的HTML代码：<code>&lt;a href=&quot;超链接地址&quot; title=&quot;超链接title&quot;&gt;超链接显示名&lt;/a&gt;</code><br />
 如：<br />
-<code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.</code><br />
-效果：</p>
-<blockquote>
-<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
-</blockquote>
-<br>
-<h3 id="多个段落的块引用"><a class="markdownIt-Anchor" href="#多个段落的块引用"></a> 多个段落的块引用</h3>
-<p>块引用可以包含多个段落。为段落之间的空白行添加一个 &gt; 符号。<br />
+<code>这是一个链接 [Markdown语法](https://markdown.com.cn)。</code><br />
+渲染效果如下：<br />
+这是一个链接 <a href="https://markdown.com.cn">Markdown语法</a>。</p>
+<h3 id="给链接增加-title"><a class="markdownIt-Anchor" href="#给链接增加-title"></a> 给链接增加 Title</h3>
+<p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。<br />
+<code>这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。</code><br />
+渲染效果如下：<br />
+这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。</p>
+<h3 id="网址和email地址"><a class="markdownIt-Anchor" href="#网址和email地址"></a> 网址和Email地址</h3>
+<p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
+<p>渲染效果如下：<br />
+<a href="https://markdown.com.cn">https://markdown.com.cn</a><br />
+<a href="mailto:fake@example.com">fake@example.com</a></p>
+<h3 id="带格式化的链接"><a class="markdownIt-Anchor" href="#带格式化的链接"></a> 带格式化的链接</h3>
+<p>强调 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https://eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https://www.markdownguide.org)*.</span><br><span class="line">See the section on [`code`](#code).</span><br></pre></td></tr></table></figure>
+<p>渲染效果如下：<br />
+I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br />
+This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br />
+See the section on <a href="#code"><code>code</code></a>.</p>
+<h3 id="引用类型链接"><a class="markdownIt-Anchor" href="#引用类型链接"></a> 引用类型链接</h3>
+<p>引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。参考样式链接分为两部分：与文本保持内联的部分以及存储在文件中其他位置的部分，以使文本易于阅读。</p>
+<h4 id="链接的第一部分格式"><a class="markdownIt-Anchor" href="#链接的第一部分格式"></a> 链接的第一部分格式</h4>
+<p>引用类型的链接的第一部分使用两组括号进行格式设置。第一组方括号包围应显示为链接的文本。第二组括号显示了一个标签，该标签用于指向您存储在文档其他位置的链接。</p>
+<p>尽管不是必需的，可以在第一组和第二组括号之间包含一个空格。第二组括号中的标签不区分大小写，可以包含字母，数字，空格或标点符号。</p>
+<p>以下示例格式对于链接的第一部分效果相同：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[hobbit-hole][1]</span><br><span class="line">[hobbit-hole] [1]</span><br></pre></td></tr></table></figure>
+<h4 id="链接的第二部分格式"><a class="markdownIt-Anchor" href="#链接的第二部分格式"></a> 链接的第二部分格式</h4>
+<p>引用类型链接的第二部分使用以下属性设置格式：</p>
+<ol>
+<li>放在括号中的标签，其后紧跟一个冒号和至少一个空格（例如[label]:）。</li>
+<li>链接的URL，可以选择将其括在尖括号中。</li>
+<li>链接的可选标题，可以将其括在双引号，单引号或括号中。</li>
+</ol>
+<p>以下示例格式对于链接的第二部分效果相同：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle &quot;Hobbit lifestyles&quot;</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle &#x27;Hobbit lifestyles&#x27;</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; &quot;Hobbit lifestyles&quot;</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; &#x27;Hobbit lifestyles&#x27;</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; (Hobbit lifestyles)</span><br></pre></td></tr></table></figure>
+<p>可以将链接的第二部分放在Markdown文档中的任何位置。有些人将它们放在出现的段落之后，有些人则将它们放在文档的末尾（例如尾注或脚注）。<br />
 如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<blockquote>
-<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
-<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
-</blockquote>
-<br>
-<h3 id="嵌套块引用"><a class="markdownIt-Anchor" href="#嵌套块引用"></a> 嵌套块引用</h3>
-<p>块引用可以嵌套。在要嵌套的段落前添加一个 &gt;&gt; 符号。<br />
-如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<blockquote>
-<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
-<blockquote>
-<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
-</blockquote>
-</blockquote>
-<br>
-<h3 id="带有其它元素的块引用"><a class="markdownIt-Anchor" href="#带有其它元素的块引用"></a> 带有其它元素的块引用</h3>
-<p>块引用可以包含其他 Markdown 格式的元素。<br />
-如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<blockquote>
-<h4 id="the-quarterly-results-look-great"><a class="markdownIt-Anchor" href="#the-quarterly-results-look-great"></a> The quarterly results look great!</h4>
-<ul>
-<li>Revenue was off the chart.</li>
-<li>Profits were higher than ever.</li>
-</ul>
-<p><em>Everything</em> is going according to <strong>plan</strong>.</p>
-</blockquote>
-]]></content>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[hobbit-hole][1]</span><br><span class="line"></span><br><span class="line">[1]:https://en.wikipedia.org/wiki/Hobbit#Lifestyle &quot;Hobbit lifestyles&quot;</span><br></pre></td></tr></table></figure>
+<p>渲染效果如下：<br />
+<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a></p>
+<h3 id="链接最佳格式"><a class="markdownIt-Anchor" href="#链接最佳格式"></a> 链接最佳格式</h3>
+<p>不同的 Markdown 应用程序处理URL中间的空格方式不一样。为了兼容性，请尽量使用%20代替空格。<br />
+使用：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[link](https://www.example.com/my%20great%20page)</span><br></pre></td></tr></table></figure>
+<p>而不是：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[link](https://www.example.com/my great page)</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Markdown语法和博客编辑教程</category>
       </categories>
@@ -375,240 +502,6 @@ Markdown语法:</p>
       </tags>
   </entry>
   <entry>
-    <title>Markdown-4</title>
-    <url>/2023/04/09/Markdown-4/</url>
-    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-4"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-4"></a> Markdown语法和博客编辑教程-4</h1>
-<hr />
-<h2 id="markdown-代码语法"><a class="markdownIt-Anchor" href="#markdown-代码语法"></a> Markdown 代码语法</h2>
-<p>要将单词或短语表示为代码，请将其包裹在反引号 <code> </code> ` 中。<br />
-Markdown语法:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">At the command prompt, type `nano`.</span><br></pre></td></tr></table></figure>
-<p>HTML:</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">At the command prompt, type <span class="tag">&lt;<span class="name">code</span>&gt;</span>nano<span class="tag">&lt;/<span class="name">code</span>&gt;</span>.</span><br></pre></td></tr></table></figure>
-<h3 id="转义反引号"><a class="markdownIt-Anchor" href="#转义反引号"></a> 转义反引号</h3>
-<p>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号<code>``</code>中。<br />
-Markdown语法:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``Use `code` in your Markdown file.``</span><br></pre></td></tr></table></figure>
-<p>HTML:</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">code</span>&gt;</span>Use `code` in your Markdown file.<span class="tag">&lt;/<span class="name">code</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="代码块"><a class="markdownIt-Anchor" href="#代码块"></a> 代码块</h3>
-<p>要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。<br />
-例如：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<pre><code>&lt;html&gt;
-  &lt;head&gt;
-  &lt;/head&gt;
-&lt;/html&gt;
-</code></pre>
-<br>
-<hr />
-<h2 id="markdown-分隔线语法"><a class="markdownIt-Anchor" href="#markdown-分隔线语法"></a> Markdown 分隔线语法</h2>
-<h3 id="分隔线基础语法"><a class="markdownIt-Anchor" href="#分隔线基础语法"></a> 分隔线基础语法</h3>
-<p>要创建分隔线，请在单独一行上使用三个或多个星号 <code>***</code>、破折号 <code>---</code> 或下划线 <code>___</code> ，并且不能包含其他内容。<br />
-如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br><span class="line">___</span><br></pre></td></tr></table></figure>
-<p>渲染效果如下：</p>
-<hr />
-<hr />
-<hr />
-<h3 id="分隔线最佳格式"><a class="markdownIt-Anchor" href="#分隔线最佳格式"></a> 分隔线最佳格式</h3>
-<p>为了兼容性，请在分隔线的前后均添加空白行。</p>
-<hr />
-<h2 id="markdown-链接语法"><a class="markdownIt-Anchor" href="#markdown-链接语法"></a> Markdown 链接语法</h2>
-<p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p>
-<p>超链接Markdown语法代码：<code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code></p>
-<p>对应的HTML代码：<code>&lt;a href=&quot;超链接地址&quot; title=&quot;超链接title&quot;&gt;超链接显示名&lt;/a&gt;</code><br />
-如：<br />
-<code>这是一个链接 [Markdown语法](https://markdown.com.cn)。</code><br />
-渲染效果如下：<br />
-这是一个链接 <a href="https://markdown.com.cn">Markdown语法</a>。</p>
-<h3 id="给链接增加-title"><a class="markdownIt-Anchor" href="#给链接增加-title"></a> 给链接增加 Title</h3>
-<p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。<br />
-<code>这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。</code><br />
-渲染效果如下：<br />
-这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。</p>
-<h3 id="网址和email地址"><a class="markdownIt-Anchor" href="#网址和email地址"></a> 网址和Email地址</h3>
-<p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
-<p>渲染效果如下：<br />
-<a href="https://markdown.com.cn">https://markdown.com.cn</a><br />
-<a href="mailto:fake@example.com">fake@example.com</a></p>
-<h3 id="带格式化的链接"><a class="markdownIt-Anchor" href="#带格式化的链接"></a> 带格式化的链接</h3>
-<p>强调 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https://eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https://www.markdownguide.org)*.</span><br><span class="line">See the section on [`code`](#code).</span><br></pre></td></tr></table></figure>
-<p>渲染效果如下：<br />
-I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br />
-This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br />
-See the section on <a href="#code"><code>code</code></a>.</p>
-<h3 id="引用类型链接"><a class="markdownIt-Anchor" href="#引用类型链接"></a> 引用类型链接</h3>
-<p>引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。参考样式链接分为两部分：与文本保持内联的部分以及存储在文件中其他位置的部分，以使文本易于阅读。</p>
-<h4 id="链接的第一部分格式"><a class="markdownIt-Anchor" href="#链接的第一部分格式"></a> 链接的第一部分格式</h4>
-<p>引用类型的链接的第一部分使用两组括号进行格式设置。第一组方括号包围应显示为链接的文本。第二组括号显示了一个标签，该标签用于指向您存储在文档其他位置的链接。</p>
-<p>尽管不是必需的，可以在第一组和第二组括号之间包含一个空格。第二组括号中的标签不区分大小写，可以包含字母，数字，空格或标点符号。</p>
-<p>以下示例格式对于链接的第一部分效果相同：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[hobbit-hole][1]</span><br><span class="line">[hobbit-hole] [1]</span><br></pre></td></tr></table></figure>
-<h4 id="链接的第二部分格式"><a class="markdownIt-Anchor" href="#链接的第二部分格式"></a> 链接的第二部分格式</h4>
-<p>引用类型链接的第二部分使用以下属性设置格式：</p>
-<ol>
-<li>放在括号中的标签，其后紧跟一个冒号和至少一个空格（例如[label]:）。</li>
-<li>链接的URL，可以选择将其括在尖括号中。</li>
-<li>链接的可选标题，可以将其括在双引号，单引号或括号中。</li>
-</ol>
-<p>以下示例格式对于链接的第二部分效果相同：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle &quot;Hobbit lifestyles&quot;</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle &#x27;Hobbit lifestyles&#x27;</span><br><span class="line">[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; &quot;Hobbit lifestyles&quot;</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; &#x27;Hobbit lifestyles&#x27;</span><br><span class="line">[1]: &lt;https://en.wikipedia.org/wiki/Hobbit#Lifestyle&gt; (Hobbit lifestyles)</span><br></pre></td></tr></table></figure>
-<p>可以将链接的第二部分放在Markdown文档中的任何位置。有些人将它们放在出现的段落之后，有些人则将它们放在文档的末尾（例如尾注或脚注）。<br />
-如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[hobbit-hole][1]</span><br><span class="line"></span><br><span class="line">[1]:https://en.wikipedia.org/wiki/Hobbit#Lifestyle &quot;Hobbit lifestyles&quot;</span><br></pre></td></tr></table></figure>
-<p>渲染效果如下：<br />
-<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a></p>
-<h3 id="链接最佳格式"><a class="markdownIt-Anchor" href="#链接最佳格式"></a> 链接最佳格式</h3>
-<p>不同的 Markdown 应用程序处理URL中间的空格方式不一样。为了兼容性，请尽量使用%20代替空格。<br />
-使用：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[link](https://www.example.com/my%20great%20page)</span><br></pre></td></tr></table></figure>
-<p>而不是：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[link](https://www.example.com/my great page)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Markdown语法和博客编辑教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown-5</title>
-    <url>/2023/04/10/Markdown-5/</url>
-    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-5"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-5"></a> Markdown语法和博客编辑教程-5</h1>
-<hr />
-<h2 id="markdown-图片语法"><a class="markdownIt-Anchor" href="#markdown-图片语法"></a> Markdown 图片语法</h2>
-<p>要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br />
-插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。<br />
-对应的HTML代码：<code>&lt;img src=&quot;图片链接&quot; alt=&quot;图片alt&quot; title=&quot;图片title&quot;&gt;</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![这是图片](/assets/img/philly-magic-garden.jpg &quot;Magic Gardens&quot;)</span><br></pre></td></tr></table></figure>
-<p><strong>渲染效果如下：</strong><br />
-<img src="https://i.postimg.cc/vHPBqnvG/1.jpg" alt="这是图片" title="Magic Gardens" /></p>
-<h3 id="链接图片"><a class="markdownIt-Anchor" href="#链接图片"></a> 链接图片</h3>
-<p>给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[![这是图片](/assets/img/philly-magic-garden.jpg &quot;Magic Gardens&quot;)](https://markdown.com.cn)</span><br></pre></td></tr></table></figure>
-<p><strong>渲染效果如下：</strong><br />
-<a href="https://markdown.com.cn"><img src="https://i.postimg.cc/vHPBqnvG/1.jpg" alt="这是图片" /></a></p>
-<hr />
-<h2 id="markdown-转义字符语法"><a class="markdownIt-Anchor" href="#markdown-转义字符语法"></a> Markdown 转义字符语法</h2>
-<p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\* Without the backslash, this would be a bullet in an unordered list.</span><br></pre></td></tr></table></figure>
-<p><strong>渲染效果如下：</strong><br />
-* Without the backslash, this would be a bullet in an unordered list.</p>
-<h3 id="可做转义的字符"><a class="markdownIt-Anchor" href="#可做转义的字符"></a> 可做转义的字符</h3>
-<p>以下列出的字符都可以通过使用反斜杠字符从而达到转义目的。</p>
-<table>
-<thead>
-<tr>
-<th>Character</th>
-<th>Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>\</td>
-<td>backslash</td>
-</tr>
-<tr>
-<td>`</td>
-<td>backtick</td>
-</tr>
-<tr>
-<td>*</td>
-<td>asterisk</td>
-</tr>
-<tr>
-<td>_</td>
-<td>underscore</td>
-</tr>
-<tr>
-<td>{ }</td>
-<td>curly braces</td>
-</tr>
-<tr>
-<td>[ ]</td>
-<td>brackets</td>
-</tr>
-<tr>
-<td>( )</td>
-<td>parentheses</td>
-</tr>
-<tr>
-<td>#</td>
-<td>pound sign</td>
-</tr>
-<tr>
-<td>+</td>
-<td>plus sign</td>
-</tr>
-<tr>
-<td>-</td>
-<td>minus sign (hyphen)</td>
-</tr>
-<tr>
-<td>.</td>
-<td>dot</td>
-</tr>
-<tr>
-<td>!</td>
-<td>exclamation mark</td>
-</tr>
-<tr>
-<td>|</td>
-<td>pipe</td>
-</tr>
-</tbody>
-</table>
-<h3 id="特殊字符自动转义"><a class="markdownIt-Anchor" href="#特殊字符自动转义"></a> 特殊字符自动转义</h3>
-<p>在 HTML 文件中，有两个字符需要特殊处理： <code>&lt;</code> 和 <code>&amp;</code> 。 <code>&lt;</code> 符号用于起始标签，<code>&amp;</code> 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 <code>&amp;lt;</code> 和 <code>&amp;amp;</code>。</p>
-<p><code>&amp;</code> 符号其实很容易让写作网页文件的人感到困扰，如果你要打<code>「AT&amp;T」</code> ，你必须要写成<code>「AT&amp;amp;T」</code> ，还得转换网址内的 <code>&amp;</code> 符号，如果你要链接到：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://images.google.com/images?num=30&amp;q=larry+bird</span><br></pre></td></tr></table></figure>
-<p>你必须要把网址转成：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://images.google.com/images?num=30&amp;amp;q=larry+bird</span><br></pre></td></tr></table></figure>
-<p>才能放到链接标签的 <code>href</code> 属性里。不用说也知道这很容易忘记，这也可能是 HTML 标准检查所检查到的错误中，数量最多的。</p>
-<p>Markdown 允许你直接使用这些符号，它帮你自动转义字符。如果你使用 <code>&amp;</code> 符号的作为 HTML 实体的一部分，那么它不会被转换，而在其它情况下，它则会被转换成<code> &amp;amp;</code>。所以你如果要在文件中插入一个著作权的符号，你可以这样写：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&amp;copy;</span><br></pre></td></tr></table></figure>
-<p>Markdown 将不会对这段文字做修改，但是如果你这样写：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AT&amp;T</span><br></pre></td></tr></table></figure>
-<p>Markdown 就会将它转为：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AT&amp;amp;T</span><br></pre></td></tr></table></figure>
-<p>类似的状况也会发生在 &lt; 符号上，因为 Markdown 支持 行内 HTML ，如果你使用 &lt; 符号作为 HTML 标签的分隔符，那 Markdown 也不会对它做任何转换，但是如果你是写：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &lt; 5</span><br></pre></td></tr></table></figure>
-<p>Markdown 将会把它转换为：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 &amp;lt; 5</span><br></pre></td></tr></table></figure>
-<p>需要特别注意的是，在 Markdown 的块级元素和内联元素中， <code>&lt;</code> 和 <code>&amp;</code> 两个符号都会被自动转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML。（在 HTML 语法中，你要手动把所有的 <code>&lt;</code> 和 <code>&amp;</code> 都转换为 HTML 实体。）</p>
-<hr />
-<h2 id="markdown-内嵌-html-标签"><a class="markdownIt-Anchor" href="#markdown-内嵌-html-标签"></a> Markdown 内嵌 HTML 标签</h2>
-<p>对于 Markdown 涵盖范围之外的标签，都可以直接在文件里面用 HTML 本身。如需使用 HTML，不需要额外标注这是 HTML 或是 Markdown，只需 HTML 标签添加到 Markdown 文本中即可。</p>
-<h3 id="行级內联标签"><a class="markdownIt-Anchor" href="#行级內联标签"></a> 行级內联标签</h3>
-<p>HTML 的行级內联标签如 <code>&lt;span&gt;</code>、<code>&lt;cite&gt;</code>、<code>&lt;del&gt;</code> 不受限制，可以在 Markdown 的段落、列表或是标题里任意使用。依照个人习惯，甚至可以不用 Markdown 格式，而采用 HTML 标签来格式化。例如：如果比较喜欢 HTML 的 <code>&lt;a&gt; </code>或 <code>&lt;img&gt;</code> 标签，可以直接使用这些标签，而不用 Markdown 提供的链接或是图片语法。当你需要更改元素的属性时（例如为文本指定颜色或更改图像的宽度），使用 HTML 标签更方便些。<br />
-HTML 行级內联标签和区块标签不同，在內联标签的范围内， Markdown 的语法是可以解析的。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">This **word** is bold. This <span class="tag">&lt;<span class="name">em</span>&gt;</span>word<span class="tag">&lt;/<span class="name">em</span>&gt;</span> is italic.</span><br></pre></td></tr></table></figure>
-<p><strong>渲染效果如下:</strong><br />
-This <strong>word</strong> is bold. This <em>word</em> is italic.</p>
-<h3 id="区块标签"><a class="markdownIt-Anchor" href="#区块标签"></a> 区块标签</h3>
-<p>区块元素──比如 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code>、<code>&lt;p&gt;</code> 等标签，必须在前后加上空行，以便于内容区分。而且这些元素的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 会自动识别这区块元素，避免在区块标签前后加上没有必要的 <code>&lt;p&gt;</code> 标签。<br />
-例如，在 Markdown 文件里加上一段 HTML 表格：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">This is a regular paragraph.</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">td</span>&gt;</span>Foo<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"></span><br><span class="line">This is another regular paragraph.</span><br></pre></td></tr></table></figure>
-<p>请注意，Markdown 语法在 HTML 区块标签中将不会被进行处理。例如，你无法在 HTML 区块内使用 Markdown 形式的<code>*强调*</code>。</p>
-<h3 id="html最佳格式"><a class="markdownIt-Anchor" href="#html最佳格式"></a> HTML最佳格式</h3>
-<p>出于安全原因，并非所有 Markdown 应用程序都支持在 Markdown 文档中添加 HTML。如有疑问，请查看相应 Markdown 应用程序的手册。某些应用程序只支持 HTML 标签的子集。</p>
-<p>对于 HTML 的块级元素 <code>&lt;div&gt;</code>、<code>&lt;table&gt;</code>、<code>&lt;pre&gt;</code> 和 <code>&lt;p&gt;</code>，请在其前后使用空行（blank lines）与其它内容进行分隔。尽量不要使用制表符（tabs）或空格（spaces）对 HTML 标签做缩进，否则将影响格式。</p>
-<p>在 HTML 块级标签内不能使用 Markdown 语法。例如 <code>&lt;p&gt;italic and **bold**&lt;/p&gt;</code> 将不起作用。</p>
-<hr />
-<p><font size=5>Markdown的基础语法到这里就全部结束了，该分类下，将会继续更新Markdown扩展语法以及博客排版规则等内容<br>敬请期待！</font></p>
-]]></content>
-      <categories>
-        <category>Markdown语法和博客编辑教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>第七周每周练习(2023.4.10-2023.4-16)</title>
     <url>/2023/04/08/WeeklyExercises7thWeek2023-4-10-2023-4-16/</url>
     <content><![CDATA[<link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.11.1/katex.min.css">
@@ -737,58 +630,232 @@ This <strong>word</strong> is bold. This <em>word</em> is italic.</p>
       </tags>
   </entry>
   <entry>
-    <title>WindowsUEO-NCM</title>
-    <url>/2023/04/11/WindowsUEO-NCM/</url>
-    <content><![CDATA[<h1 id="windows使用体验优化-网易云"><a class="markdownIt-Anchor" href="#windows使用体验优化-网易云"></a> Windows使用体验优化-网易云</h1>
-<p>使用<strong>BetterNCM！</strong></p>
-<div class="note warning">
-            <p>⚠️ 注意<br>本页面转载自<a href="https://github.com/MicroCBer/BetterNCM/wiki">原作者仓库Wiki</a></p>
-          </div>
-<h2 id="什么是berrerncm"><a class="markdownIt-Anchor" href="#什么是berrerncm"></a> 什么是BerrerNCM？</h2>
-<p>BetterNCM 是一个由一群热爱网易云音乐的云村村友开发的 PC 版网易云音乐扩展工具，可以提供非常丰富的自定义功能扩展增强能力。</p>
-<blockquote>
-<p>作者的声明：<br />
-考虑到工具性质，BetterNCM 将永远是完全开源免费的自由软件，所以如果你是从任何地方发现有任何人在售卖本工具，请立刻要求退款并举报商家！作为一群爱好者，我们不会也没办法为你因为从其它途径购买本工具造成的损失负责！</p>
-</blockquote>
-<h2 id="安装-betterncm"><a class="markdownIt-Anchor" href="#安装-betterncm"></a> 安装 BetterNCM</h2>
-<p>安装分为两种，一种是安装器安装，一种是直接安装。对于普通使用者推荐前者进行安装，更加方便快捷。</p>
-<h3 id="安装器安装-betterncm"><a class="markdownIt-Anchor" href="#安装器安装-betterncm"></a> 安装器安装 BetterNCM</h3>
-<p>下载 BetterNCM 安装器，你可以访问<a href="https://github.com/MicroCBer/BetterNCM-Installer/releases">BetterNCM-Installer 的 Github Release</a>页面，进入下载安装器的最新版本。</p>
-<p>下载后，执行安装器，在弹出的窗口点击安装，稍等片刻后即可安装完成，重启网易云音乐后插件管理器就会开始工作了。</p>
-<p>安装器本身是绿色版本，安装完成后如果你不需要卸载 BetterNCM 的话可以自行删除安装器，不会影响已安装的插件管理器。</p>
-<p>如果无法进入GitHub，这里也有<a href="https://microblock.cc/betterncm">下载链接</a></p>
-<h3 id="直接安装-betterncm"><a class="markdownIt-Anchor" href="#直接安装-betterncm"></a> 直接安装 BetterNCM</h3>
-<p>从<a href="https://github.com/MicroCBer/BetterNCM/releases">本仓库的 Release</a>下载用于注入插件管理器的 DLL 动态库文件，下载完成后重命名成 msimg32.dll 后放在和网易云音乐执行程序文件目录相同的文件夹下，重启网易云音乐后插件管理器就会开始工作了。</p>
-<h2 id="使用-betterncm"><a class="markdownIt-Anchor" href="#使用-betterncm"></a> 使用 BetterNCM</h2>
-<h3 id="打开插件管理器"><a class="markdownIt-Anchor" href="#打开插件管理器"></a> 打开插件管理器</h3>
-<p><img src="https://user-images.githubusercontent.com/39523898/207782128-ffe072b4-9817-4ee5-936a-883d2b796bd3.png" alt="打开插件" /></p>
-<h3 id="安装插件"><a class="markdownIt-Anchor" href="#安装插件"></a> 安装插件</h3>
-<p>在插件管理器中，你可以通过点击左侧的<code>PluginMarket</code>打开插件商店，点击载入插件按钮后等待一会，之后就可以安装你喜欢的插件了：<br />
-<img src="https://user-images.githubusercontent.com/39523898/207782579-5118b5dd-5c77-4b88-b62a-d0a6a3bf1e72.png" alt="安装插件" /></p>
-<div class="note warning">
-            <p>⚠️ 注意<br>每安装一个插件，都会重载一次页面，所以请尽量不要一次性安装多个插件，以免导致安装失败。</p>
-          </div>
-<h3 id="配置插件"><a class="markdownIt-Anchor" href="#配置插件"></a> 配置插件</h3>
-<p>在插件管理器中，你可以点击左侧插件列表的插件切换到它们对应的设置页面，进行插件的配置：<br />
-<img src="https://user-images.githubusercontent.com/39523898/207784047-a033d517-9c42-4566-91fa-6505fb5d4faa.png" alt="配置插件" /></p>
-<div class="note warning">
-            <p>⚠️ 注意<br>每个插件的配置页面和可配置内容各不相同，具体请询问插件制作者。</p>
-          </div>
-<h3 id="卸载插件"><a class="markdownIt-Anchor" href="#卸载插件"></a> 卸载插件</h3>
-<p>在插件管理器中，你可以通过将光标悬浮到左侧的插件列表，会显示出一个删除图标，点击后重载即可卸载完成：<br />
-<img src="https://user-images.githubusercontent.com/39523898/207783827-5dd8ef4d-d508-4172-a0ec-e3657bfca404.png" alt="卸载插件" /></p>
-<h3 id="卸载-betterncm"><a class="markdownIt-Anchor" href="#卸载-betterncm"></a> 卸载 BetterNCM</h3>
-<p>进行卸载工作前，请先关闭正在运行的网易云音乐，以免卸载失败。</p>
-<p>如果是使用安装器安装 BetterNCM 的用户，同样可以在安装器内找到卸载按钮，按下后 BetterNCM 将会自动从你的网易云音乐中移除，之后打开网易云音乐即可恢复原貌。</p>
-<p>如果是直接安装的，以管理员权限删除上文提到的 DLL 文件，和你对应的插件目录（你可以在插件管理器内通过“打开插件文件夹”按钮打开）。之后打开网易云音乐即可恢复原貌。</p>
-<h3 id="修改插件数据位置"><a class="markdownIt-Anchor" href="#修改插件数据位置"></a> 修改插件数据位置</h3>
-<p>可以通过设置环境变量 BETTERNCM_PROFILE 来设置插件数据位置</p>
+    <title>Markdown-2</title>
+    <url>/2023/04/08/Markdown-2/</url>
+    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-2"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-2"></a> Markdown语法和博客编辑教程-2</h1>
 <hr />
-<p>以上就是网易云美化插件</p>
+<h2 id="markdown强调语法"><a class="markdownIt-Anchor" href="#markdown强调语法"></a> Markdown强调语法</h2>
+<h3 id="粗体"><a class="markdownIt-Anchor" href="#粗体"></a> 粗体</h3>
+<p>要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。<br />
+如<code>**bold text**</code>或<code>__bold text__</code><br />
+效果：<strong>bold text</strong><br />
+<br></p>
+<h3 id="粗体最佳格式"><a class="markdownIt-Anchor" href="#粗体最佳格式"></a> 粗体最佳格式</h3>
+<p>Markdown 应用程序在如何处理单词或短语中间的下划线上并不一致。为兼容考虑，在单词或短语中间部分加粗的话，请使用星号（asterisks）。<br />
+<br></p>
+<h3 id="斜体"><a class="markdownIt-Anchor" href="#斜体"></a> 斜体</h3>
+<p>要用斜体显示文本，请在单词或短语前后添加一个星号（asterisk）或下划线（underscore）。要斜体突出单词的中间部分，请在字母前后各添加一个星号，中间不要带空格。<br />
+如<code>*bold text*</code>或<code>_bold text_</code><br />
+效果：<em>bold text</em><br />
+<br></p>
+<h3 id="斜体最佳格式"><a class="markdownIt-Anchor" href="#斜体最佳格式"></a> 斜体最佳格式</h3>
+<p>Markdown 应用程序在如何处理单词或短语中间的下划线上并不一致。为兼容考虑，在单词或短语中间部分倾斜的话，请使用星号（asterisks）。<br />
+<br></p>
+<h3 id="粗体和斜体"><a class="markdownIt-Anchor" href="#粗体和斜体"></a> 粗体和斜体</h3>
+<p>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。<br />
+如<code>***bold text***</code>或<code>___bold text___</code><br />
+效果：<em><strong>bold text</strong></em><br />
+<br></p>
+<h3 id="粗体和斜体最佳格式"><a class="markdownIt-Anchor" href="#粗体和斜体最佳格式"></a> 粗体和斜体最佳格式</h3>
+<p>Markdown 应用程序在处理单词或短语中间添加的下划线上并不一致。为了实现兼容性，请使用星号将单词或短语的中间部分加粗并以斜体显示，以示重要。<br />
+<br></p>
+<hr />
+<h2 id="markdown-引用语法"><a class="markdownIt-Anchor" href="#markdown-引用语法"></a> Markdown 引用语法</h2>
+<h3 id="基础语法"><a class="markdownIt-Anchor" href="#基础语法"></a> 基础语法</h3>
+<p>要创建块引用，请在段落前添加一个 &gt; 符号。<br />
+如：<br />
+<code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.</code><br />
+效果：</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+</blockquote>
+<br>
+<h3 id="多个段落的块引用"><a class="markdownIt-Anchor" href="#多个段落的块引用"></a> 多个段落的块引用</h3>
+<p>块引用可以包含多个段落。为段落之间的空白行添加一个 &gt; 符号。<br />
+如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+<br>
+<h3 id="嵌套块引用"><a class="markdownIt-Anchor" href="#嵌套块引用"></a> 嵌套块引用</h3>
+<p>块引用可以嵌套。在要嵌套的段落前添加一个 &gt;&gt; 符号。<br />
+如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<br>
+<h3 id="带有其它元素的块引用"><a class="markdownIt-Anchor" href="#带有其它元素的块引用"></a> 带有其它元素的块引用</h3>
+<p>块引用可以包含其他 Markdown 格式的元素。<br />
+如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<blockquote>
+<h4 id="the-quarterly-results-look-great"><a class="markdownIt-Anchor" href="#the-quarterly-results-look-great"></a> The quarterly results look great!</h4>
+<ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
+<p><em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Markdown语法和博客编辑教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown-1</title>
+    <url>/2023/04/08/Markdown-1/</url>
+    <content><![CDATA[<h1 id="markdown语法和博客编辑教程-1"><a class="markdownIt-Anchor" href="#markdown语法和博客编辑教程-1"></a> Markdown语法和博客编辑教程-1</h1>
+<hr />
+<h2 id="markdown标题语法"><a class="markdownIt-Anchor" href="#markdown标题语法"></a> Markdown标题语法</h2>
+<p>要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+<p>如：本节教程大标题<code>Markdown语法和博客编辑教程-1</code>就是一级标题，而<code>Markdown标题语法</code>则是二级标题。<br></p>
+<h3 id="可选语法"><a class="markdownIt-Anchor" href="#可选语法"></a> 可选语法</h3>
+<p>还可以在文本下方添加任意数量的 == 号来标识一级标题，或者 – 号来标识二级标题。<br />
+<br></p>
+<h3 id="最佳格式"><a class="markdownIt-Anchor" href="#最佳格式"></a> 最佳格式</h3>
+<ul>
+<li>不同的 Markdown 应用程序处理 # 和标题之间的空格方式并不一致。为了兼容考虑，请用一个空格在 # 和标题之间进行分隔。<br />
+<br></li>
+</ul>
+<hr />
+<h2 id="markdown段落语法"><a class="markdownIt-Anchor" href="#markdown段落语法"></a> Markdown段落语法</h2>
+<h3 id="基础语法"><a class="markdownIt-Anchor" href="#基础语法"></a> 基础语法</h3>
+<p>要创建段落，请使用空白行将一行或多行文本进行分隔。</p>
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code> I really like using Markdown.</code></td>
+<td><code>&lt;p&gt;I really like using Markdown.&lt;/p&gt;</code></td>
+</tr>
+<tr>
+<td>而在网页中将会显示：</td>
+<td></td>
+</tr>
+<tr>
+<td>I really like using Markdown.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="最佳格式-2"><a class="markdownIt-Anchor" href="#最佳格式-2"></a> 最佳格式</h3>
+<p>直接写出内容，不要使用空格或者制表符（TAB）<br />
+<br></p>
+<hr />
+<h2 id="markdown-换行语法"><a class="markdownIt-Anchor" href="#markdown-换行语法"></a> Markdown 换行语法</h2>
+<h3 id="基础语法-2"><a class="markdownIt-Anchor" href="#基础语法-2"></a> 基础语法</h3>
+<p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<code>&lt;br&gt;</code>)。<br />
+<br></p>
+<h3 id="最佳格式-3"><a class="markdownIt-Anchor" href="#最佳格式-3"></a> 最佳格式</h3>
+<p>几乎每个 Markdown 应用程序都支持两个或多个空格进行换行，称为 结尾空格（trailing whitespace) 的方式，但这是有争议的，因为很难在编辑器中直接看到空格，并且很多人在每个句子后面都会有意或无意地添加两个空格。由于这个原因，你可能要使用除结尾空格以外的其它方式来换行。幸运的是，几乎每个 Markdown 应用程序都支持另一种换行方式：HTML 的 <code>&lt;br&gt;</code> 标签。</p>
+<p><strong>为了兼容性，请在行尾添加“结尾空格”或 HTML 的<code>&lt;br&gt;</code>标签来实现换行。</strong></p>
+<p>还有两种其他方式我并不推荐使用。CommonMark 和其它几种轻量级标记语言支持在行尾添加反斜杠 () 的方式实现换行，但是并非所有 Markdown 应用程序都支持此种方式，因此从兼容性的角度来看，不推荐使用。并且至少有两种轻量级标记语言支持无须在行尾添加任何内容，只须键入回车键（return）即可实现换行。</p>
+]]></content>
+      <categories>
+        <category>Markdown语法和博客编辑教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>内置Bilibili教程</title>
+    <url>/2023/04/07/Bilibili/</url>
+    <content><![CDATA[<h1 id="如何使用插件在博客中添加视频页面"><a class="markdownIt-Anchor" href="#如何使用插件在博客中添加视频页面"></a> 如何使用插件在博客中添加视频页面</h1>
+<p>为了在博客中内置视频，我们集成了两个视频插入插件供选择</p>
+<hr />
+<h2 id="hexo-bilibili-card"><a class="markdownIt-Anchor" href="#hexo-bilibili-card"></a> hexo-bilibili-card</h2>
+<h3 id="usage-使用"><a class="markdownIt-Anchor" href="#usage-使用"></a> Usage 使用</h3>
+<p><br />
+在你的markdown文件中插入以下片段</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% bilicard your_video_id %&#125;</span><br></pre></td></tr></table></figure>
+<p><code>your_video_id</code> 是b站的bv号或av号。</p>
+<p>然后你就可以看见文章中的卡片了。</p>
+<h3 id="preview-预览"><a class="markdownIt-Anchor" href="#preview-预览"></a> Preview 预览</h3>
+<div class="bvideo"><a href="//www.bilibili.com/video/BV1LN411A72k" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/548dfb1ee7e8756bde3377fcdce1b0b0614f2ebb.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:10:39</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">国风蛋糕天花板，还有谁谁谁谁谁谁？！！</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>12.8万</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>702</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">乔一烘焙</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+<hr />
+<h2 id="hexo-tag-bilibili"><a class="markdownIt-Anchor" href="#hexo-tag-bilibili"></a> hexo-tag-bilibili</h2>
+<h3 id="usage-使用-2"><a class="markdownIt-Anchor" href="#usage-使用-2"></a> Usage 使用</h3>
+<p><br />
+你可以这样使用：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% bilibili [av_id] %&#125;</span><br><span class="line">or</span><br><span class="line">&#123;% bilibili [av_id] [page] %&#125;</span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% bilibili 2333333 3 %&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="preview-预览-2"><a class="markdownIt-Anchor" href="#preview-预览-2"></a> Preview 预览</h3>
+<div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=311981284&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div>]]></content>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BasicTools</title>
+    <url>/2023/04/06/BasicTools/</url>
+    <content><![CDATA[<h1 id="基础工具合集"><a class="markdownIt-Anchor" href="#基础工具合集"></a> 基础工具合集</h1>
+<h2 id="图床博客书写的常用工具"><a class="markdownIt-Anchor" href="#图床博客书写的常用工具"></a> 图床：博客书写的常用工具！</h2>
+<h3 id="imgurl-图床"><a class="markdownIt-Anchor" href="#imgurl-图床"></a> ImgURL 图床</h3>
+<p><a href="https://www.imgurl.org/">ImgURL</a>老牌免费图床服务，稳定性好，无需注册。游客限制每日上传10张，单张图片不能超过 5M，支持 HTTPS。诞生于2017年12月,是一款开源图片管理系统(简称图床),无需注册即可支持多图上传、粘贴上传、URL上传,图片压缩、图片鉴黄等多种功能,同时也支持自建。</p>
+<h3 id="postimage-图床"><a class="markdownIt-Anchor" href="#postimage-图床"></a> PostImage 图床</h3>
+<p><a href="https://postimages.org/">PostImage</a>外国免费图床网站，支持按照一定大小缩放图片及设置图片过期自动删除。</p>
+<h2 id="流程图理清思路学习必备"><a class="markdownIt-Anchor" href="#流程图理清思路学习必备"></a> 流程图：理清思路，学习必备</h2>
+<h3 id="橘猫简图"><a class="markdownIt-Anchor" href="#橘猫简图"></a> 橘猫简图</h3>
+<p><a href="https://mind.pictureknow.com/">橘猫简图</a>免费流程图绘制网站</p>
+<h2 id="常见代码工具集"><a class="markdownIt-Anchor" href="#常见代码工具集"></a> 常见代码工具集</h2>
+<p><a href="https://www.toolnb.com/">爱资料工具</a><br />
+<a href="https://www.matools.com">码工具</a><br />
+<a href="https://www.aconvert.com/cn/">在线格式转换工具</a><br />
+<a href="https://tool.lu/">在线免费工具</a><br />
+<a href="https://tool.oschina.net/">在线工具</a><br />
+<a href="https://www.atool99.com/Atool">在线工具</a><br />
+<a href="https://www.w3school.com.cn/index.html">免费web编辑工具网站</a><br />
+<a href="https://www.gitbook.com/">排版工具</a><br />
+<a href="https://www.runoob.com/w3cnote/github-tools.html">GitHub上整理的一些工具</a></p>
 ]]></content>
       <tags>
-        <tag>桌面美化</tag>
-        <tag>Windows</tag>
+        <tag>Tools</tag>
       </tags>
   </entry>
 </search>
