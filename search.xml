@@ -175,7 +175,7 @@ C 中的类型可分为以下几种：</p>
 </thead>
 <tbody>
 <tr>
-<td>flaot</td>
+<td>float</td>
 <td>4 字节</td>
 <td>1.2E-38 到 3.4E+38</td>
 <td>6 位有效位</td>
